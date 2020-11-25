@@ -489,6 +489,9 @@
     font-weight: 600;
   }
   .auction-body{
+    margin-bottom: 1rem;
+    padding: .9rem;
+    border: 2.5px solid $color-grey-light;
     .end-date{
       display: flex;
       flex-direction: column;
