@@ -1,0 +1,492 @@
+.merchant-register,
+.doctor-register {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
+  .register {
+    background-color: $color-white;
+    margin-top: 2rem;
+    padding: 2rem 3.5rem 3rem;
+
+    .v-stepper {
+      box-shadow: none;
+
+      .v-stepper__header {
+        padding: 0 23%;
+        box-shadow: none;
+
+        .v-stepper__step {
+          flex-basis: 200px;
+
+          .v-stepper__step__step {
+            background-color: $color-primary;
+          }
+
+          .v-stepper__label {
+            font-size: 1.2rem;
+            color: $color-primary;
+            font-weight: 600;
+            letter-spacing: 1px;
+          }
+
+          &.v-stepper__step--inactive {
+            opacity: 0.5;
+
+            .v-stepper__label {
+              font-weight: 400;
+            }
+          }
+        }
+
+        .v-divider {
+          border-width: thick 0 0 0;
+        }
+      }
+
+      .v-stepper__items {
+        .v-stepper__content {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+.doctor-register {
+  .register {
+    .doctor-business {
+      .tabs {
+        .nav {
+          .nav-item {
+            .nav-link {
+              opacity: 0.4;
+              font-weight: 100;
+              letter-spacing: 1px;
+
+              &.active {
+                background: none;
+                opacity: 1;
+                font-weight: 400;
+              }
+
+              &:hover {
+                opacity: 1;
+                font-weight: 400;
+              }
+
+              .service {
+                // margin-top: 2rem;
+                display: flex;
+                justify-content: center;
+                // flex-basis: 11%;
+
+                .service-content {
+                  color: $color-black;
+                  text-decoration: none;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+
+                  .service-img {
+                    background-color: $color-white;
+                    box-shadow: 0 2.5px 15px 0 rgba(36, 36, 36, 0.1);
+                    padding: 1.2rem;
+                    border-radius: 6px;
+                    transition: all 0.3s;
+
+                    img {
+                      width: 50px;
+                      height: 50px;
+                      transition: all 0.3s;
+                      backface-visibility: hidden;
+                    }
+                  }
+
+                  p {
+                    margin-bottom: 0;
+                    margin-top: 0.5rem;
+                    text-align: center;
+                    // font-size: 2rem;
+                    // transition: all .3s;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .hospital {
+        h3 {
+          font-weight: 600;
+          letter-spacing: 1px;
+        }
+
+        .hospital-info {
+          .head {
+            margin: 2rem 0 1.5rem;
+          }
+        }
+
+        .hospital-clinics {
+          .clinic {
+            padding: 1rem 2rem;
+            border: 2px solid $color-primary;
+            border-radius: 8px;
+            margin-top: 2rem;
+
+            .head {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              h3 {
+                margin-bottom: 0;
+              }
+
+              img {
+                height: 1.2rem;
+              }
+
+              &:focus {
+                outline: none;
+              }
+            }
+
+            .action-btns {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              .btn {
+                color: $color-white;
+                width: 150px;
+                height: 50px;
+                font-size: 1.3rem;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+
+                &:focus {
+                  box-shadow: none;
+                }
+              }
+
+              .remove-clinic {
+                background-color: $color-danger;
+              }
+
+              .save-clinic {
+                background-color: $color-primary;
+              }
+            }
+          }
+        }
+
+        .add-clinic {
+            
+          border: 2px solid $color-primary;
+          padding: 2rem;
+          border-radius: 8px;
+          margin-top: 2rem;
+          margin-bottom: 3rem;
+
+          .head {
+            margin-bottom: 1.5rem;
+          }
+
+          .add-btn {
+            margin-top: 2rem;
+
+            .btn {
+              background-color: $color-secondary;
+              color: $color-white;
+              font-size: 1.3rem;
+              font-weight: 600;
+              letter-spacing: 0.5px;
+              padding: 0.75rem 1.75rem;
+
+              &:focus {
+                box-shadow: none;
+              }
+            }
+          }
+        }
+      }
+    //   .add-private-clinic{
+    //     h3 {
+    //         font-weight: 600;
+    //         letter-spacing: 1px;
+    //         &::after {
+    //             content: "(You must at least add one clinic)";
+    //             font-size: 1.1rem;
+    //             color: $color-grey-light-5;
+    //             margin-left: 1rem;
+    //             font-weight: 100;
+    //           }
+    //       }
+    //     padding: 2rem;
+    //     border-radius: 8px;
+    //     margin-top: 2rem;
+    //     margin-bottom: 3rem;
+    //     .working-days {
+    //         display: flex;
+    //         justify-content: center;
+    //         background-color: $color-grey-light-3;
+    //         padding: 0.5rem 0;
+    //         border-radius: 0.3rem;
+    
+    //         .chiller_cb {
+    //           margin: 0 1rem;
+    
+    //           label {
+    //             font-size: 1rem;
+    //             font-weight: 400;
+    //             color: $color-black;
+    //           }
+    //         }
+    //       }
+    //     .head {
+    //         margin-bottom: 1.5rem;
+    //       }
+
+    //       .add-btn {
+    //         margin-top: 2rem;
+
+    //         .btn {
+    //           background-color: $color-secondary;
+    //           color: $color-white;
+    //           font-size: 1.3rem;
+    //           font-weight: 600;
+    //           letter-spacing: 0.5px;
+    //           padding: 0.75rem 1.75rem;
+
+    //           &:focus {
+    //             box-shadow: none;
+    //           }
+    //         }
+    //       }
+    //   }
+    }
+  }
+}
+.add-private-clinic{
+    h3 {
+        font-weight: 600;
+        letter-spacing: 1px;
+        &::after {
+            content: "(You must at least add one clinic)";
+            font-size: 1.1rem;
+            color: $color-grey-light-5;
+            margin-left: 1rem;
+            font-weight: 100;
+          }
+      }
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    .working-days {
+        display: flex;
+        justify-content: center;
+        background-color: $color-grey-light-3;
+        padding: 0.5rem 0;
+        border-radius: 0.3rem;
+
+        .chiller_cb {
+          margin: 0 1rem;
+
+          label {
+            font-size: 1rem;
+            font-weight: 400;
+            color: $color-black;
+          }
+        }
+      }
+    .head {
+        margin-bottom: 1.5rem;
+      }
+
+      .add-btn {
+        margin-top: 2rem;
+
+        .btn {
+          background-color: $color-secondary;
+          color: $color-white;
+          font-size: 1.3rem;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+          padding: 0.75rem 1.75rem;
+
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+
+  }
+
+.partner-form {
+    .input-file {
+        visibility: hidden;
+      }
+      .label-file {
+        // color: $color-primary;
+        // text-align: center;
+        // left: 2%;
+        // position: absolute;
+        // color:$color-white;
+        // background-color: $color-secondary;
+        // border-radius: 7px;
+        // width: 10rem;
+        // height: 4rem;
+        color: #fff;
+            width: 8.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            height: 3rem;
+            border-radius: 0.3rem;
+            margin-top: 0rem;
+            padding-top: 0.9rem;
+            margin-left: 0.5rem;
+
+
+      }
+  .profile-img {
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    label {
+      margin-top: 0.5rem;
+      font-weight: 600;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+      color: $color-primary;
+      cursor: pointer;
+    }
+  }
+
+  .form-row {
+    .form-group {
+      margin-top: 1rem;
+      position: relative;
+      img {
+        position: absolute;
+        position: absolute;
+        right: 0%;
+        top: 61%;
+        transform: translate(-60%);
+      }
+
+      label {
+        font-size: 1.1rem;
+        color: #8d8d8d;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+
+      select {
+        background-image: url("/images/icons/svg/icon-arrow.svg");
+        background-repeat: no-repeat;
+        background-position: right 3% top 50%;
+      }
+      .form-control {
+        border: none;
+        background-color: $color-grey-light-3;
+        font-size: 1rem;
+        color: $color-black;
+
+        &:focus {
+          box-shadow: none;
+        }
+        &::placeholder {
+          color: $color-black;
+        }
+      }
+
+      .working-days {
+        display: flex;
+        justify-content: center;
+        background-color: $color-grey-light-3;
+        padding: 0.5rem 0;
+        border-radius: 0.3rem;
+
+        .chiller_cb {
+          margin: 0 1rem;
+
+          label {
+            font-size: 1rem;
+            font-weight: 400;
+            color: $color-black;
+          }
+        }
+      }
+    }
+  }
+
+  .btn-next {
+    display: flex;
+    margin-top: 2rem;
+
+    .btn {
+      background-color: $color-primary;
+      color: $color-white;
+      font-size: 1.3rem;
+      padding: 0.5rem 3.5rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+
+      img {
+        height: 1rem;
+        margin-left: 0.5rem;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+
+  .action-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    .perv-btn {
+      background-color: $color-white;
+      color: $color-primary;
+      font-size: 1.3rem;
+      padding: 0.5rem 3.5rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 1rem;
+        margin-right: 0.5rem;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .create-btn {
+      background-color: $color-primary;
+      color: $color-white;
+      font-size: 1.3rem;
+      padding: 0.5rem 3.5rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}

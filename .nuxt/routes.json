@@ -1,0 +1,116 @@
+[
+  {
+    "name": "partner",
+    "path": "/partner",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\partner\\\\index.vue",
+    "chunkName": "pages/partner/index"
+  },
+  {
+    "name": "services",
+    "path": "/services",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\services\\\\index.vue",
+    "chunkName": "pages/services/index"
+  },
+  {
+    "name": "vendor-profile",
+    "path": "/vendor-profile",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\vendor-profile\\\\index.vue",
+    "chunkName": "pages/vendor-profile/index"
+  },
+  {
+    "name": "partner-doctor",
+    "path": "/partner/doctor",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\partner\\\\doctor\\\\index.vue",
+    "chunkName": "pages/partner/doctor/index"
+  },
+  {
+    "name": "partner-driver",
+    "path": "/partner/driver",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\partner\\\\driver\\\\index.vue",
+    "chunkName": "pages/partner/driver/index"
+  },
+  {
+    "name": "partner-merchant",
+    "path": "/partner/merchant",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\partner\\\\merchant\\\\index.vue",
+    "chunkName": "pages/partner/merchant/index"
+  },
+  {
+    "name": "partner-profession",
+    "path": "/partner/profession",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\partner\\\\profession\\\\index.vue",
+    "chunkName": "pages/partner/profession/index"
+  },
+  {
+    "name": "partner-realestate-developer",
+    "path": "/partner/realestate-developer",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\partner\\\\realestate-developer\\\\index.vue",
+    "chunkName": "pages/partner/realestate-developer/index"
+  },
+  {
+    "name": "services-restaurants",
+    "path": "/services/restaurants",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\services\\\\restaurants\\\\index.vue",
+    "chunkName": "pages/services/restaurants/index"
+  },
+  {
+    "name": "vendor-profile-my-auction",
+    "path": "/vendor-profile/my-auction",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\vendor-profile\\\\my-auction\\\\index.vue",
+    "chunkName": "pages/vendor-profile/my-auction/index"
+  },
+  {
+    "name": "vendor-profile-orders",
+    "path": "/vendor-profile/orders",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\vendor-profile\\\\orders\\\\index.vue",
+    "chunkName": "pages/vendor-profile/orders/index"
+  },
+  {
+    "name": "vendor-profile-reservation",
+    "path": "/vendor-profile/reservation",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\vendor-profile\\\\reservation\\\\index.vue",
+    "chunkName": "pages/vendor-profile/reservation/index"
+  },
+  {
+    "name": "vendor-profile-subscribe-auction",
+    "path": "/vendor-profile/subscribe-auction",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\vendor-profile\\\\subscribe-auction\\\\index.vue",
+    "chunkName": "pages/vendor-profile/subscribe-auction/index"
+  },
+  {
+    "name": "vendor-profile-wishlist",
+    "path": "/vendor-profile/wishlist",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\vendor-profile\\\\wishlist\\\\index.vue",
+    "chunkName": "pages/vendor-profile/wishlist/index"
+  },
+  {
+    "name": "services-store-vendor-vendorId",
+    "path": "/services/store/vendor/:vendorId",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\services\\\\store\\\\vendor\\\\_vendorId\\\\index.vue",
+    "chunkName": "pages/services/store/vendor/_vendorId/index"
+  },
+  {
+    "name": "services-store-product-productId-productName",
+    "path": "/services/store/product/:productId?/:productName",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\services\\\\store\\\\product\\\\_productId\\\\_productName\\\\index.vue",
+    "chunkName": "pages/services/store/product/_productId/_productName/index"
+  },
+  {
+    "name": "services-restaurants-restaurantId-restaurantName",
+    "path": "/services/restaurants/:restaurantId/:restaurantName",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\services\\\\restaurants\\\\_restaurantId\\\\_restaurantName\\\\index.vue",
+    "chunkName": "pages/services/restaurants/_restaurantId/_restaurantName/index"
+  },
+  {
+    "name": "services-store-subCatId-id",
+    "path": "/services/store/:subCatId?/:id",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\services\\\\store\\\\_subCatId\\\\_id\\\\index.vue",
+    "chunkName": "pages/services/store/_subCatId/_id/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\khloud\\\\tbdm-test\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

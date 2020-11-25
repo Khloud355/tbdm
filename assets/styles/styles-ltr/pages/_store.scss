@@ -1,0 +1,60 @@
+.store {
+    padding-bottom: 2rem;
+
+    .like, .popular, .vendors {
+        padding: 1.2rem 0 3rem;
+        background-color: $color-white;
+        margin-top: 2rem;
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+            h2 {
+                margin-bottom: 0;
+            }
+
+            a:link,
+            a:visited {
+                font-size: 1.2rem;
+                color: $color-primary;
+                text-decoration: underline;
+                letter-spacing: .5px;
+            }
+        }
+    }
+
+    .like, .popular {
+        .products {
+            padding: 0 1.5rem;
+            position: relative;
+
+            .swiper-container {
+                position: unset;
+            }
+
+            .product {
+                padding: 1rem .5rem;
+            }
+        }
+    }
+
+    .vendors {
+
+        .popular-vendors {
+            margin-top: 1.5rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            position: relative;
+
+            .swiper-container {
+                position: unset;
+            }
+        }
+    }
+
+}

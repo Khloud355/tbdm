@@ -1,0 +1,505 @@
+.vendor-profile {
+  background-color: $color-grey-light;
+  padding: 2rem 0;
+  .sidebar {
+    background-color: $color-white;
+    padding: 2rem 0 0;
+    .sidupgrade {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 1rem;
+      margin-bottom: 2rem;
+      .upgrade {
+        background-color: rgba(212, 176, 55, 0.1);
+        height: 2rem;
+        width: 10rem;
+        border-radius: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 01px;
+        img {
+          margin-right: 0.5rem;
+        }
+
+        span {
+          color: $color-gold;
+          text-align: center;
+          font-size: 0.8rem;
+        }
+      }
+      h3 {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+
+        // margin-bottom: 2rem;
+      }
+    }
+
+    .sidebar-head {
+      display: flex;
+      padding: 0 1rem;
+
+      .profile-pic {
+        img {
+          height: 50px;
+        }
+
+        margin-right: 1rem;
+      }
+
+      .profile-name {
+        .name {
+          letter-spacing: 0.5px;
+          font-size: 1.5rem;
+        }
+
+        .upload-photo {
+          .input-file {
+            visibility: hidden;
+            position: relative;
+          }
+          .label-file {
+            color: $color-primary;
+            position: absolute;
+            left: 6.2rem;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+    ul {
+      list-style: none;
+      padding: 1rem 0;
+
+      li {
+        color: $color-black;
+        padding: 0 1rem;
+        transition: all 0.3s;
+        border-bottom: 1px solid $color-grey-light;
+        display: flex;
+        justify-content: space-between;
+        img {
+          margin-right: 1rem;
+        }
+
+        &:hover {
+          background-color: rgb(199, 241, 227);
+        }
+        a {
+          padding: 1rem;
+          text-decoration: none;
+          position: relative;
+          color: $color-black;
+          display: flex;
+          img {
+            margin-right: 1rem;
+          }
+          span {
+            font-size: 1.2rem;
+          }
+
+          a:link,
+          a:visited {
+            color: $color-black;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    button {
+      background-color: $color-secondary;
+      color: $color-white;
+      width: 100%;
+      padding: 0.8rem 1rem;
+      font-size: 1.2rem;
+    }
+  }
+  // start user account/////////////////////////////////////
+  .account-content {
+    background-color: $color-white;
+    padding: 2rem;
+    height: 100%;
+    .account-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      h3 {
+        font-weight: 600;
+      }
+      button {
+        background-color: $color-primary;
+        color: $color-white;
+        width: 11rem;
+        border-radius: 7px;
+        height: 3rem;
+      }
+    }
+    .account-form {
+      label {
+        font-size: 1.1rem;
+        color: $color-grey-light-5;
+        // font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+      .form-control {
+        border: none;
+        background-color: $color-grey-light-3;
+        font-size: 1rem;
+        color: $color-black;
+
+        &:focus {
+          box-shadow: none;
+        }
+        &::placeholder {
+          color: $color-black;
+        }
+      }
+    }
+  }
+  // end/////////////////////////////////////////
+  // start user wishlist//////////////////////////////////////////////////////
+  .user-wishlist {
+    background-color: $color-white;
+    padding: 2rem;
+    // height: 100%;
+    height: 40rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    .wishlist-head {
+      h3 {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+    }
+    .wishlist-items {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.8rem;
+      span {
+        color: $color-grey-dark-6;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+      }
+    }
+    .wishlist-content {
+      padding: 1rem 0;
+      .counter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content1 {
+          display: flex;
+          .content-img {
+            border: 1px solid #e5e5e5;
+            height: 6.2rem;
+            margin-right: 1rem;
+          }
+          .details {
+            p {
+              margin-bottom: 0.5rem;
+            }
+            .bold {
+              font-weight: 600;
+              margin-bottom: 0.5rem;
+            }
+            .remove {
+              span {
+                color: $color-grey-dark-6;
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .control {
+      display: flex;
+      margin-left: 1rem;
+
+      span {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color: $color-grey-light-1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:nth-child(2) {
+          width: 3rem;
+          border-radius: 50px;
+          background-color: $color-white;
+          border: 1px solid $color-grey-light-1;
+          font-weight: 600;
+        }
+
+        &:not(:last-child) {
+          margin-right: 0.3rem;
+        }
+      }
+    }
+
+    .bold2 {
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-bottom: 0;
+    }
+    button {
+      background-color: $color-primary;
+      color: $color-white;
+      border-radius: 4rem;
+      width: 8rem;
+      height: 2.2rem;
+      letter-spacing: 0.7px;
+    }
+  }
+  // end///////////////////////////////////////////////////////////
+  // start orders///////////////////////////////////////
+  .user-orders {
+    background-color: $color-white;
+    padding: 2rem;
+    // height: 100%;
+    height: 40rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    h3 {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 1.5rem;
+    }
+    .order-details {
+      background-color: $color-grey-light;
+
+      padding: 1rem 0 0.5rem;
+      margin-bottom: 1.5rem;
+
+      .order-details1 {
+        p {
+          font-size: 0.9rem;
+          font-weight: 600;
+        }
+        span {
+          font-size: 1.1rem;
+          letter-spacing: 0.1rem;
+          text-align: right;
+          display: block;
+        }
+      }
+      .order-details2 {
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // margin-right: 2rem;
+
+        span {
+          color: $color-primary;
+          // margin-bottom: 1rem;
+          font-weight: 600;
+          // margin-bottom: 2.5rem;
+        }
+        p {
+          margin-bottom: 0.5rem;
+          // font-size: 1.1rem;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+        button {
+          background-color: $color-secondary;
+          color: $color-white;
+          width: 8.2rem;
+          height: 2.5rem;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+  // 0end//////////////////////////////////////////////////////
+  // start user-reversation//////////////////////////////////////////////////
+  .user-reversation {
+    background-color: $color-white;
+    padding: 2rem;
+    // height: 100%;
+    height: 40rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    h3 {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 1.5rem;
+    }
+    .reversation-head {
+      background-color: $color-grey-light;
+      color: $color-black;
+      padding: .9rem;
+      margin-bottom: .5rem;
+      font-weight: 600;
+    }
+    .reversation-details{
+      margin-bottom: 1rem;
+      padding: .9rem;
+      border: 2.5px solid $color-grey-light;
+      .row{
+        margin-right: 0;
+        align-items: center;
+      
+      .reversation-name{
+        display: flex;
+        align-items: center;
+        span{
+          font-size: 1.1rem;
+    letter-spacing: .5px;
+        }
+        .image{
+          width: 3rem;
+          height: 3rem;
+          // background-color: bisque;
+          border-radius: 50%;
+          margin-right: .5rem;
+          img{
+            // object-fit: contain;
+            height: 3rem;
+          }
+        }
+      }
+      .reversation-date{
+        display: flex;
+    flex-direction: column;
+.date{
+  font-size: 1.1rem;
+}
+        .time{
+          color: $color-grey-dark-7;
+        }
+
+      
+      }
+      .reveration-types{
+      .jop-type{
+        font-size:1.1rem ;
+      }
+        .type{
+          color: $color-grey-dark-7;
+        }
+      }
+      .reversation-cost{
+        span{
+          font-size: 1.1rem;
+        }
+      }
+    
+        .cancel{
+          color: $color-red;
+          font-size: 1.1rem;
+        }
+      
+    }
+  }
+}
+// //////////////////////////end///////////////////////////
+// start subscribe-auction/////////////////////////////////////////////
+.subscribe-auction{
+ 
+    background-color: $color-white;
+    padding: 2rem;
+    // height: 100%;
+    height: 40rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    h3 {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 1.5rem;
+    
+  }
+  .subscribe-head{
+    background-color: $color-grey-light;
+    color: $color-black;
+    padding: .9rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+  }
+  .subscribe-body{
+    border: 2.5px solid $color-grey-light;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    .row{
+      align-items: center;
+    .auction{
+      font-size: 1.1rem;
+    }
+    .end-date{
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+      .date{
+        font-size: 1.1rem;
+      }
+      .time{
+        color:$color-grey-dark-7;
+      }
+    }
+    .price{
+      font-size: 1.1rem;
+    }
+    .pay-time{
+      display: flex;
+      flex-direction: column;
+    
+      .pay{
+        color: $color-primary;
+        font-size: 1.1rem;
+      }
+      .date-time{
+        color:$color-grey-dark-7;
+      }
+    }
+    .total{
+      color: $color-secondary;
+      font-size: 1.1rem;
+    }
+  }
+}
+}
+// end/////////////////////////////////////////////////
+// start my auction////////////////////////////////////////
+.my-auction{
+  background-color: $color-white;
+    padding: 2rem;
+    // height: 100%;
+    height: 40rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    h3 {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 1.5rem;
+    
+  }
+  .auction-head{
+    background-color: $color-grey-light;
+    color: $color-black;
+    padding: .9rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+  }
+  .auction-body{
+    .end-date{
+      display: flex;
+      flex-direction: column;
+      .time{
+        color: $color-grey-dark-7;
+      }
+    }
+.total{
+  color: $color-secondary;
+}
+  }
+
+}
+}

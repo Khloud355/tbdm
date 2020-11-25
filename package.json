@@ -1,0 +1,27 @@
+{
+  "name": "tbdm-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --hostname 192.168.1.37",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-star-rating": "^1.6.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "fibers": "^5.0.0",
+    "sass": "^1.27.1",
+    "sass-loader": "^10.0.4"
+  }
+}
