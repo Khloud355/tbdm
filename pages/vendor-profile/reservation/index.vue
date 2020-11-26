@@ -29,52 +29,57 @@
                 </div>
               </div>
             </div>
-
-            <ul>
+ <ul>
               <li>
                 <nuxt-link to="/vendor-profile">
                   <img src="/images/icons/svg/icon-user.svg" alt="" />
                   <span>Account Info</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/wishlist">
-                  <img src="/images/icons/svg/Heart.svg" alt="" />
+                  <img src="/images/icons/svg/icon-Heart.svg" alt="" />
                   <span>Wishlist</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/orders">
                   <img src="/images/icons/svg/icon-orders.svg" alt="" />
                   <span>Orders</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/reservation">
                   <img src="/images/icons/svg/icon doctor.svg" alt="" />
                   <span>Reservation </span>
+                    <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+              
               </li>
               <li>
-           <nuxt-link to="/vendor-profile/subscibe-auction">
+                <nuxt-link to="/vendor-profile/subscribe-auction">
                   <img src="/images/icons/svg/icon-auction.svg" alt="" />
                   <span>Subscribed Auctions</span>
-           </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
+                </nuxt-link>
+               
               </li>
               <li>
-                  <nuxt-link to="/vendor-profile/my-auction">
+                <nuxt-link to="/vendor-profile/my-auction">
                   <img src="/images/icons/svg/icon-auction.svg" alt="" />
                   <span>My Auctions</span>
-                  </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+                    <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
+                </nuxt-link>
+              
               </li>
             </ul>
-            <button>Log Out</button>
+            <button>Log out</button>
           </div>
         </div>
         <div class="col-md-8 col-12">
@@ -82,19 +87,19 @@
             <h3>Reservation</h3>
             <div class="reversation-head">
               <div class="row no-gutters">
-                <div class="col-4">Name</div>
+                <div class="col-3">Name</div>
                 <div class="col-3">Date</div>
                 <div class="col-2">Type</div>
                 <div class="col-2">Cost</div>
-                <div class="col-1"></div>
+                <div class="col-2"></div>
               </div>
             </div>
-            <div class="reversation-details">
+            <div class="reversation-details"  v-for="reveration in 4" :key="reveration">
               <div class="row no-gutters">
-                <div class="col-4">
+                <div class="col-3">
                   <div class="reversation-name">
                     <div class="image">
-                      <img src="/images/vendor.png" alt="" />
+                      <img src="/images/person.jpeg" alt="" />
                     </div>
                     <span class="name">Tom Hanks</span>
                   </div>
@@ -113,110 +118,18 @@
                 </div>
                 <div class="col-2">
                   <div class="reversation-cost">
-                    <span>E£ 54,00</span>
+                    <span>54,0000 EGP</span>
                   </div>
                 </div>
-                <div class="col-1">
-                  <span class="cancel"> Cancel </span>
+                <div class="col-2">
+                  <div class="cancel">
+                  <img src="/images/icons/svg/icon-cancel.svg" alt="">
+                  <span> Cancel </span>
                 </div>
               </div>
-            </div>
-              <div class="reversation-details">
-              <div class="row no-gutters">
-                <div class="col-4">
-                  <div class="reversation-name">
-                    <div class="image">
-                      <img src="/images/vendor.png" alt="" />
-                    </div>
-                    <span class="name">Tom Hanks</span>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="reversation-date">
-                    <span class="date">Apr 4,2020</span>
-                    <span class="time">23:00 PM</span>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="reveration-types">
-                    <span class="jop-type">Doctor</span>
-                    <span class="type">Destines</span>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="reversation-cost">
-                    <span>E£ 54,00</span>
-                  </div>
-                </div>
-                <div class="col-1">
-                  <span class="cancel"> Cancel </span>
-                </div>
               </div>
             </div>
-               <div class="reversation-details">
-              <div class="row no-gutters">
-                <div class="col-4">
-                  <div class="reversation-name">
-                    <div class="image">
-                      <img src="/images/vendor.png" alt="" />
-                    </div>
-                    <span class="name">Tom Hanks</span>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="reversation-date">
-                    <span class="date">Apr 4,2020</span>
-                    <span class="time">23:00 PM</span>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="reveration-types">
-                    <span class="jop-type">Doctor</span>
-                    <span class="type">Destines</span>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="reversation-cost">
-                    <span>E£ 54,00</span>
-                  </div>
-                </div>
-                <div class="col-1">
-                  <span class="cancel"> Cancel </span>
-                </div>
-              </div>
-            </div>
-               <div class="reversation-details">
-              <div class="row no-gutters">
-                <div class="col-4">
-                  <div class="reversation-name">
-                    <div class="image">
-                      <img src="/images/vendor.png" alt="" />
-                    </div>
-                    <span class="name">Tom Hanks</span>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="reversation-date">
-                    <span class="date">Apr 4,2020</span>
-                    <span class="time">23:00 PM</span>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="reveration-types">
-                    <span class="jop-type">Doctor</span>
-                    <span class="type">Destines</span>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="reversation-cost">
-                    <span>E£ 54,00</span>
-                  </div>
-                </div>
-                <div class="col-1">
-                  <span class="cancel"> Cancel </span>
-                </div>
-              </div>
-            </div>
+        
           </div>
         </div>
       </div>

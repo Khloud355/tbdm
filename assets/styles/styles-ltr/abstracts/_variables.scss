@@ -2,7 +2,7 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 $color-primary: #1FAE93;
-$color-primary-dark: #1A9F86;
+$color-primary-dark: rgb(26, 159, 134);
 // $color-primary-dark-1 : #1A9F86;
 
 $color-secondary: #16135A;
@@ -20,9 +20,10 @@ $color-grey-light-2: #E8EBEE; // Sub Header
 $color-grey-light-3: #F5F5F5;
 $color-grey-light-5:#7d7d7d ; //label color
 $color-grey-dark: #656363;
+$color-grey-dark-border:#dedede;
 $color-grey-dark-6: #b4b4b4;  //wishlist color
 $color-grey-dark-7:#a7a7a7  ;   //reverstion-color
 $color-danger: #FD5353;
-$color-red:#ff5353;
+$color-red:rgb(255, 83, 83);
 $color-white: #FFF;
 $color-black: #000;

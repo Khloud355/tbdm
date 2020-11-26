@@ -14,7 +14,7 @@
 
             <div class="sidebar-head">
               <div class="profile-pic">
-                <img src="/images/vendor.png" alt="" />
+                <img src="/images/person.jpeg" alt="" />
               </div>
               <div class="profile-name">
                 <span class="name">Tom Hanks</span>
@@ -35,47 +35,53 @@
                 <nuxt-link to="/vendor-profile">
                   <img src="/images/icons/svg/icon-user.svg" alt="" />
                   <span>Account Info</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="">
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/wishlist">
-                  <img src="/images/icons/svg/Heart.svg" alt="" />
+                  <img src="/images/icons/svg/icon-Heart.svg" alt="" />
                   <span>Wishlist</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                 <img src="/images/icons/svg/icon_arrow.svg" alt="">
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/orders">
                   <img src="/images/icons/svg/icon-orders.svg" alt="" />
                   <span>Orders</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                 <img src="/images/icons/svg/icon_arrow.svg" alt="">
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/reservation">
                   <img src="/images/icons/svg/icon doctor.svg" alt="" />
                   <span>Reservation </span>
+                    <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                 <img src="/images/icons/svg/icon_arrow.svg" alt="">
+              
               </li>
               <li>
-                <nuxt-link to="/vendor-profile/subscibe-auction">
+                <nuxt-link to="/vendor-profile/subscribe-auction">
                   <img src="/images/icons/svg/icon-auction.svg" alt="" />
                   <span>Subscribed Auctions</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                 <img src="/images/icons/svg/icon_arrow.svg" alt="">
+               
               </li>
               <li>
-                 <nuxt-link to="/vendor-profile/my-auction">
+                <nuxt-link to="/vendor-profile/my-auction">
                   <img src="/images/icons/svg/icon-auction.svg" alt="" />
                   <span>My Auctions</span>
-                 </nuxt-link>
-                 <img src="/images/icons/svg/icon_arrow.svg" alt="">
+                    <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
+                </nuxt-link>
+              
               </li>
             </ul>
 
-            <button>Log Out</button>
+            <button>Log out</button>
           </div>
         </div>
         <div class="col-8">
@@ -132,32 +138,38 @@
                     id="password"
                   />
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="country">Country</label>
-                  <input
-                    type="text"
-                    class="form-control form-control-lg"
-                    id="country"
-                  />
-                </div>
+                 <div class="form-group col-md-6">
+                                <label for="country">Country</label>
+                                <select
+                                  id="country"
+                                  class="form-control form-control-lg"
+                                >
+                                  <option>Egypt</option>
+                                  <option>syria</option>
+                                </select>
+                              </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <label for="city">City</label>
-                  <input
-                    type="text"
-                    class="form-control form-control-lg"
-                    id="city"
-                  />
-                </div>
+                                <label for="city">City</label>
+                                <select
+                                  id="city"
+                                  class="form-control form-control-lg"
+                                >
+                                  <option>Cairo</option>
+                                  <option>syria</option>
+                                </select>
+                              </div>
                 <div class="form-group col-md-6">
-                  <label for="region">Region</label>
-                  <input
-                    type="text"
-                    class="form-control form-control-lg"
-                    id="region"
-                  />
-                </div>
+                                <label for="region">Region</label>
+                                <select
+                                  id="region"
+                                  class="form-control form-control-lg"
+                                >
+                                  <option>Nasr City</option>
+                                  <option>syria</option>
+                                </select>
+                              </div>
               </div>
                <div class="form-row">
                 <div class="form-group col-md-12">

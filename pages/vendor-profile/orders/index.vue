@@ -14,7 +14,7 @@
 
             <div class="sidebar-head">
               <div class="profile-pic">
-                <img src="/images/vendor.png" alt="" />
+                <img src="/images/person.jpeg" alt="" />
               </div>
               <div class="profile-name">
                 <span class="name">Tom Hanks</span>
@@ -29,62 +29,67 @@
                 </div>
               </div>
             </div>
-
-            <ul>
+ <ul>
               <li>
                 <nuxt-link to="/vendor-profile">
                   <img src="/images/icons/svg/icon-user.svg" alt="" />
                   <span>Account Info</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/wishlist">
-                  <img src="/images/icons/svg/Heart.svg" alt="" />
+                  <img src="/images/icons/svg/icon-Heart.svg" alt="" />
                   <span>Wishlist</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/orders">
                   <img src="/images/icons/svg/icon-orders.svg" alt="" />
                   <span>Orders</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+               
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/reservation">
                   <img src="/images/icons/svg/icon doctor.svg" alt="" />
-                  <span>Reservation</span>
+                  <span>Reservation </span>
+                    <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+              
               </li>
               <li>
-                <nuxt-link to="/vendor-profile/subscibe-auction">
+                <nuxt-link to="/vendor-profile/subscribe-auction">
                   <img src="/images/icons/svg/icon-auction.svg" alt="" />
                   <span>Subscribed Auctions</span>
+                   <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
                 </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+               
               </li>
               <li>
-               <nuxt-link to="/vendor-profile/my-auction">
+                <nuxt-link to="/vendor-profile/my-auction">
                   <img src="/images/icons/svg/icon-auction.svg" alt="" />
                   <span>My Auctions</span>
-               </nuxt-link>
-                <img src="/images/icons/svg/icon_arrow.svg" alt="" />
+                    <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt="" />
+                </nuxt-link>
+              
               </li>
             </ul>
 
-            <button>Log Out</button>
+            <button>Log out</button>
           </div>
         </div>
         <div class="col-8">
           <div class="user-orders">
             <h3>Orders</h3>
-            <div class="order-details">
+            <div class="order-details" v-for="orders in 2" :key="orders">
               <div class="row">
                 <div class="col-9">
-                  <div class="order-details1">
+                  <div class="order-discription">
                     <div class="row">
                       <div class="col-5">
                         <span>Order placed on:</span>
@@ -114,120 +119,28 @@
                         <span>Payment method:</span>
                       </div>
                       <div class="col-7">
-                        <p>Card end with **** 6987</p>
+                        <p class="paragraph">Card end with **** 6987</p>
                       </div>
                     </div>
                   </div>
                 </div>
               
                 <div class="col-3">
-                    <div class="order-details2">
+                    <div class="order-total">
                       
                     <p>Total</p>
                     <span>20,000 EGP</span>
                   
                   
-                    <button>Order Details</button>
+                    <nuxt-link to="/vendor-profile/orders/order-details">
+                     <span class="order-btn">Order Details</span> </nuxt-link>
                            
                    
                   </div>
                 </div>
               </div>
             </div>
-             <div class="order-details">
-              <div class="row">
-                <div class="col-9">
-                  <div class="order-details1">
-                    <div class="row">
-                      <div class="col-5">
-                        <span>Order placed on:</span>
-                      </div>
-                      <div class="col-7">
-                        <p>Apr. 4, 2020 </p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-5">
-                        <span>Order ID:</span>
-                      </div>
-                      <div class="col-7">
-                        <p>4984651984 </p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-5">
-                        <span>Recipient: </span>
-                      </div>
-                      <div class="col-7">
-                        <p>Tom Hanks </p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-5">
-                        <span>Payment method:</span>
-                      </div>
-                      <div class="col-7">
-                        <p>Card end with **** 6987</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="order-details2">
-                    <p>Total</p>
-                    <span>20,000 EGP</span>
-                    <button>Order Details</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-             <div class="order-details">
-              <div class="row">
-                <div class="col-9">
-                  <div class="order-details1">
-                    <div class="row">
-                      <div class="col-5">
-                        <span>Order placed on:</span>
-                      </div>
-                      <div class="col-7">
-                        <p>Apr. 4, 2020 </p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-5">
-                        <span>Order ID:</span>
-                      </div>
-                      <div class="col-7">
-                        <p>4984651984 </p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-5">
-                        <span>Recipient: </span>
-                      </div>
-                      <div class="col-7">
-                        <p>Tom Hanks </p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-5">
-                        <span>Payment method:</span>
-                      </div>
-                      <div class="col-7">
-                        <p>Card end with **** 6987</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class="order-details2">
-                    <p>Total</p>
-                    <span>20,000 EGP</span>
-                    <button>Order Details</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
           
           </div>
         </div>
