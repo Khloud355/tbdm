@@ -28,6 +28,13 @@
     "_name": "_d8d4761a"
   },
   {
+    "name": "my-cart-checkout",
+    "path": "/my-cart/checkout",
+    "component": "E:\\\\khloud\\\\tbdm\\\\pages\\\\my-cart\\\\checkout\\\\index.vue",
+    "chunkName": "pages/my-cart/checkout/index",
+    "_name": "_9cf94ed4"
+  },
+  {
     "name": "partner-doctor",
     "path": "/partner/doctor",
     "component": "E:\\\\khloud\\\\tbdm\\\\pages\\\\partner\\\\doctor\\\\index.vue",

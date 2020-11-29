@@ -7,6 +7,7 @@ const _571dff9c = () => interopDefault(import('..\\pages\\my-cart\\index.vue' /*
 const _25024f15 = () => interopDefault(import('..\\pages\\partner\\index.vue' /* webpackChunkName: "pages/partner/index" */))
 const _39567c39 = () => interopDefault(import('..\\pages\\services\\index.vue' /* webpackChunkName: "pages/services/index" */))
 const _d8d4761a = () => interopDefault(import('..\\pages\\vendor-profile\\index.vue' /* webpackChunkName: "pages/vendor-profile/index" */))
+const _9cf94ed4 = () => interopDefault(import('..\\pages\\my-cart\\checkout\\index.vue' /* webpackChunkName: "pages/my-cart/checkout/index" */))
 const _7a402e16 = () => interopDefault(import('..\\pages\\partner\\doctor\\index.vue' /* webpackChunkName: "pages/partner/doctor/index" */))
 const _a690d126 = () => interopDefault(import('..\\pages\\partner\\driver\\index.vue' /* webpackChunkName: "pages/partner/driver/index" */))
 const _4bf3630d = () => interopDefault(import('..\\pages\\partner\\merchant\\index.vue' /* webpackChunkName: "pages/partner/merchant/index" */))
@@ -57,6 +58,10 @@ export const routerOptions = {
     path: "/vendor-profile",
     component: _d8d4761a,
     name: "vendor-profile"
+  }, {
+    path: "/my-cart/checkout",
+    component: _9cf94ed4,
+    name: "my-cart-checkout"
   }, {
     path: "/partner/doctor",
     component: _7a402e16,
