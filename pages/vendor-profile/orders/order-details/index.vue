@@ -19,7 +19,12 @@
               <div class="profile-name">
                 <span class="name">Tom Hanks</span>
                 <div class="upload-photo">
-                  <input class="input-file" type="file" id="file" @change="onFileSelected($event)" />
+                  <input
+                    class="input-file"
+                    type="file"
+                    id="file"
+                    @change="onFileSelected($event)"
+                  />
                   <label for="file" class="label-file">Upload Photo</label>
                 </div>
               </div>
@@ -30,42 +35,66 @@
                 <nuxt-link to="/vendor-profile">
                   <img src="/images/icons/svg/icon-user.svg" alt />
                   <span>Account Info</span>
-                  <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt />
+                  <img
+                    src="/images/icons/svg/icon_arrow.svg"
+                    class="icon-arrow"
+                    alt
+                  />
                 </nuxt-link>
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/wishlist">
                   <img src="/images/icons/svg/icon-Heart.svg" alt />
                   <span>Wishlist</span>
-                  <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt />
+                  <img
+                    src="/images/icons/svg/icon_arrow.svg"
+                    class="icon-arrow"
+                    alt
+                  />
                 </nuxt-link>
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/orders">
                   <img src="/images/icons/svg/icon-orders.svg" alt />
                   <span>Orders</span>
-                  <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt />
+                  <img
+                    src="/images/icons/svg/icon_arrow.svg"
+                    class="icon-arrow"
+                    alt
+                  />
                 </nuxt-link>
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/reservation">
                   <img src="/images/icons/svg/icon doctor.svg" alt />
                   <span>Reservation</span>
-                  <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt />
+                  <img
+                    src="/images/icons/svg/icon_arrow.svg"
+                    class="icon-arrow"
+                    alt
+                  />
                 </nuxt-link>
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/subscribe-auction">
                   <img src="/images/icons/svg/icon-auction.svg" alt />
                   <span>Subscribed Auctions</span>
-                  <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt />
+                  <img
+                    src="/images/icons/svg/icon_arrow.svg"
+                    class="icon-arrow"
+                    alt
+                  />
                 </nuxt-link>
               </li>
               <li>
                 <nuxt-link to="/vendor-profile/my-auction">
                   <img src="/images/icons/svg/icon-auction.svg" alt />
                   <span>My Auctions</span>
-                  <img src="/images/icons/svg/icon_arrow.svg" class="icon-arrow" alt />
+                  <img
+                    src="/images/icons/svg/icon_arrow.svg"
+                    class="icon-arrow"
+                    alt
+                  />
                 </nuxt-link>
               </li>
             </ul>
@@ -131,96 +160,89 @@
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
-           
-              
-=======
             <div class="shipment-details">
               <h3>Shipment Details</h3>
               <ol>
                 <li>
                   <span class="point1">
-                    <span class="circle1"></span>
-
+                    <img src="/images/icons/svg/right-icon.svg" alt="" />
                   </span>
-                   <p>Order placed</p>
-                  <!-- <div class="data">
-               
+                  <p>Order placed</p>
                   <span>11 May, 2020</span>
-                  </div> -->
+                 
                 </li>
                 <li>
                   <span class="point2"></span>
                 </li>
                 <li>
-                  <span class="point3"></span>
-                  <!-- <div class="data">
-
-                     <p>Arrived In</p>
-                  <span>26 May, 2020</span>
-                  </div> -->
+                  <span class="point3"> </span>
+                </li>
+                <li>
+                  <span class="point4"></span>
                 
                 </li>
-                      <li>
-                  <span class="point4"></span>
-                    <!-- <p>Arrived In</p> -->
-               
-                </li>
-              </ol>
-              <ol>
+              </ol> 
+           <ol>
                 <li class="line">
                   <span class="point11">
-                    <span class="circle11"></span>
+                    <img src="/images/icons/svg/green-right-icon.svg" alt="" />
                   </span>
                 </li>
                 <li>
-                  <span class="point22"></span>
+                  <span class="point22">
+                    <img src="/images/icons/svg/boy-icon.svg" alt="" />
+                  </span>
                 </li>
                 <li>
                   <span class="point33"></span>
                 </li>
-                      <li>
+                <li>
                   <span class="point44"></span>
                 </li>
               </ol>
               <ol>
                 <li>
                   <span class="point111">
-                    <!-- <span class="circle111"></span> -->
+                    
                   </span>
                 </li>
                 <li>
-                  <span class="point222"></span>
+                  <span class="point222">
+                    <img src="/images/icons/svg/white-boy-icon.svg" alt="" />
+                  </span>
                 </li>
                 <li>
-                  <span class="point333"></span>
+                  <span class="point333">
+                    <img src="/images/icons/svg/car-icon.svg" alt="" />
+                  </span>
                 </li>
-                      <li>
+                <li>
                   <span class="point444"></span>
                 </li>
-            
-              </ol>
-              <ol>
+              </ol> 
+             <ol>
                 <li>
                   <span class="point1111">
-                    <!-- <span class="circle111"></span> -->
+                
                   </span>
                 </li>
                 <li>
                   <span class="point2222"></span>
                 </li>
                 <li>
-                  <span class="point3333"></span>
-                </li>
-                  <li>
-                  <span class="point4444"></span>
-                </li>
-              </ol>
-               <ol>
-                <li>
-                  <span class="point11111">
-                   
+                  <span class="point3333">
+                    <img src="/images/icons/svg/white-car-icon.svg" alt="" />
                   </span>
+                </li>
+                <li>
+                  <span class="point4444">
+                    <img src="/images/icons/svg/box-icon.svg" alt="" />
+                  </span>
+                </li>
+              </ol> 
+              <ol>
+                <li>
+                  <span class="point11111"> </span>
                 </li>
                 <li>
                   <span class="point22222"></span>
@@ -228,10 +250,64 @@
                 <li>
                   <span class="point33333"></span>
                 </li>
-                  <li>
-                  <span class="point44444"></span>
+                <li>
+                  <span class="point44444">
+                    <img src="/images/icons/svg/white-box-icon.svg" alt="" />
+                  </span>
                 </li>
-              </ol>
+              </ol> 
+
+              <!-- <ul class="orderd-placed">
+                <li></li>
+                <li>
+                  <img src="/images/icons/svg/right-icon.svg" alt="" />
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <ul class="order-confirm">
+                <li></li>
+                <li>
+                  <img src="/images/icons/svg/green-right-icon.svg" alt="" />
+                </li>
+                <li>
+                  <img src="/images/icons/svg/boy-icon.svg" alt="" />
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+              <ul class="order-picked">
+                <li></li>
+                <li></li>
+                <li>
+                  <img src="/images/icons/svg/white-boy-icon.svg" alt="" />
+                </li>
+                <li>
+                  <img src="/images/icons/svg/car-icon.svg" alt="" />
+                </li>
+                <li></li>
+              </ul>
+              <ul class="order-shiped">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>
+                  <img  class="box-image"  src="/images/icons/svg/white-car-icon.svg" alt="" />
+                </li>
+                <li>
+                  <img class="box-image" src="/images/icons/svg/box-icon.svg" alt="" />
+                </li>
+              </ul>
+              <ul class="arrivedin">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>
+                    <img class="box-image" src="/images/icons/svg/white-box-icon.svg" alt="" />
+                </li>
+              </ul> -->
             </div>
             <div class="product-details">
               <h3>Product Details</h3>
@@ -241,7 +317,11 @@
                     <b-card no-body class="overflow-hidden">
                       <b-row no-gutters>
                         <b-col md="4">
-                          <b-card-img src="/images/apple-watch.png" alt="Image" class="rounded-0"></b-card-img>
+                          <b-card-img
+                            src="/images/apple-watch.png"
+                            alt="Image"
+                            class="rounded-0"
+                          ></b-card-img>
                         </b-col>
                         <b-col md="8">
                           <b-card-body>
@@ -266,7 +346,11 @@
                     <b-card no-body class="overflow-hidden">
                       <b-row no-gutters>
                         <b-col md="4">
-                          <b-card-img src="/images/apple-watch.png" alt="Image" class="rounded-0"></b-card-img>
+                          <b-card-img
+                            src="/images/apple-watch.png"
+                            alt="Image"
+                            class="rounded-0"
+                          ></b-card-img>
                         </b-col>
                         <b-col md="8">
                           <b-card-body>
@@ -290,7 +374,6 @@
                 </div>
               </div>
             </div>
->>>>>>> 4bf6befb4eb5cde3e6ae340332614f35bc010143
           </div>
         </div>
       </div>
