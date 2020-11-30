@@ -68,20 +68,25 @@
         display: flex;
 
         span {
-            width: 1.5rem;
-            height: 1.5rem;
+          width: 1.7rem;
+    height: 1.7rem;
             border-radius: 50%;
             background-color: $color-grey-light-1;
 
             display: flex;
             justify-content: center;
             align-items: center;
+            img{
+              width: 1rem;
+            }
 
             &:nth-child(2) {
-                width: 2.5rem;
+              width: 2.5rem;
                 border-radius: 50px;
                 background-color: $color-white;
                 border: 1px solid $color-grey-light-1;
+                font-size: .9rem;
+                font-weight: 600;
             }
 
             &:not(:last-child) {

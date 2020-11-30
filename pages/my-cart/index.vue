@@ -10,7 +10,7 @@
                   <span>Item</span>
                 </div>
 
-                <div class="col-3 text-center"><span>Quantity</span></div>
+                <div class="col-3"><span>Quantity</span></div>
                 <div class="col-1">
                   <span>price</span>
                 </div>
