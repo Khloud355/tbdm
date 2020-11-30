@@ -4,13 +4,14 @@
       <div class="row">
         <div class="col-md-8">
           <div class="cart">
+            <h3>My Cart</h3>
             <div class="cart-item">
               <div class="row no-gutters">
                 <div class="col-md-8">
                   <span>Item</span>
                 </div>
 
-                <div class="col-3"><span>Quantity</span></div>
+                <div class="col-3"><span style="margin-left: 1.2rem;">Quantity</span></div>
                 <div class="col-1">
                   <span>price</span>
                 </div>
@@ -21,10 +22,10 @@
                 <div class="col-8">
                   <div class="content">
                     <div class="content-img">
-                      <img src="/images/person.jpeg" alt="" />
+               <a href="">  <img src="/images/person.jpeg" alt="" /></a>     
                     </div>
                     <div class="details">
-                      <p class="bold">Green T-shirt 2016</p>
+                      <p class="bold"> <a href="">Green T-shirt 2016</a></p>
                       <p>Men BK3569</p>
 
                       <div class="remove">
@@ -32,7 +33,7 @@
                           src="/images/icons/svg/icons-close-small-red.svg"
                           alt=""
                         />
-                        <span>Remove</span>
+                      <span>Remove</span>
                       </div>
                     </div>
                   </div>
@@ -41,9 +42,12 @@
                 <div class="col-3">
                   <div class="control">
                     <span>
-                      <img src="/images/icons/svg/icons-minus-black.svg" alt="" />
+                      <img
+                        src="/images/icons/svg/icons-minus-black.svg"
+                        alt=""
+                      />
                     </span>
-                    <span>2</span>
+                    <span>777</span>
                     <span>
                       <img src="/images/icons/svg/plus-black.svg" alt="" />
                     </span>
@@ -56,7 +60,44 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="summery">
+            <h3>Summary</h3>
+            <ul>
+              <li>
+                <a href="">
+                  <span class="text">SubTotal</span>
+                  <span class="num">$1,75584</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="text">Shipping</span>
+                  <span class="num">$00.00</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="text">Discount</span>
+                  <span class="num">$10.00</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="text">Taxes</span>
+                  <span class="num">$24.00</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="end">
+                  <span class="text">Total</span>
+                  <span class="number">$1,765.657</span>
+                </a>
+              </li>
+            </ul>
+         <button>Checkout</button>    
+          </div>
+        </div>
       </div>
     </div>
   </section>
