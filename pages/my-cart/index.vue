@@ -47,7 +47,7 @@
                         alt=""
                       />
                     </span>
-                    <span>777</span>
+                    <span>2</span>
                     <span>
                       <img src="/images/icons/svg/plus-black.svg" alt="" />
                     </span>
@@ -95,7 +95,7 @@
                 </a>
               </li>
             </ul>
-         <button>Checkout</button>    
+         <nuxt-link to="checkout" class="btn-ckeckout">Checkout</nuxt-link>    
           </div>
         </div>
       </div>

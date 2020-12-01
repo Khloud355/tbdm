@@ -1,34 +1,4 @@
 {
-  "RestaurantMainCategories": {
-    "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
-  },
-  "LazyRestaurantMainCategories": {
-    "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
-  },
-  "StoreMainCategories": {
-    "description": "Auto imported from components/Categories/StoreMainCategories.vue"
-  },
-  "LazyStoreMainCategories": {
-    "description": "Auto imported from components/Categories/StoreMainCategories.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/Navigation/Footer.vue"
-  },
-  "LazyFooter": {
-    "description": "Auto imported from components/Navigation/Footer.vue"
-  },
-  "Header": {
-    "description": "Auto imported from components/Navigation/Header.vue"
-  },
-  "LazyHeader": {
-    "description": "Auto imported from components/Navigation/Header.vue"
-  },
-  "Navbar": {
-    "description": "Auto imported from components/Navigation/Navbar.vue"
-  },
-  "LazyNavbar": {
-    "description": "Auto imported from components/Navigation/Navbar.vue"
-  },
   "StoreSingleOffer": {
     "description": "Auto imported from components/Product/StoreSingleOffer.vue"
   },
@@ -58,6 +28,36 @@
   },
   "LazyStoreSliderRelatedProduct": {
     "description": "Auto imported from components/Product/StoreSliderRelatedProduct.vue"
+  },
+  "RestaurantMainCategories": {
+    "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
+  },
+  "LazyRestaurantMainCategories": {
+    "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
+  },
+  "StoreMainCategories": {
+    "description": "Auto imported from components/Categories/StoreMainCategories.vue"
+  },
+  "LazyStoreMainCategories": {
+    "description": "Auto imported from components/Categories/StoreMainCategories.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Navigation/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/Navigation/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Navigation/Header.vue"
+  },
+  "LazyHeader": {
+    "description": "Auto imported from components/Navigation/Header.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navigation/Navbar.vue"
+  },
+  "LazyNavbar": {
+    "description": "Auto imported from components/Navigation/Navbar.vue"
   },
   "SingleRestaurant": {
     "description": "Auto imported from components/Vendor/SingleRestaurant.vue"

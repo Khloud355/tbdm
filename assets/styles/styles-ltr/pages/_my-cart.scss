@@ -148,8 +148,7 @@
           padding: 1rem 0;
           letter-spacing: 0.5px;
           border-bottom: 1px solid $color-grey-dark-8;
-        
-       
+
           .text {
             color: $color-black;
           }
@@ -172,17 +171,15 @@
         }
       }
     }
-    button {
+    .btn-ckeckout {
       background-color: $color-primary;
       color: $color-white;
-      width: 100%;
-      padding: 0.6rem 1rem;
+
+      padding: 1rem 8.7rem;
+      text-align: center;
       font-size: 1rem;
       letter-spacing: 0.5px;
-
-      &:focus {
-        outline: none;
-      }
+      text-decoration: none;
     }
   }
 }
@@ -190,6 +187,7 @@
 ////////////////////////////////////////////////////////
 .checkout {
   background-color: $color-grey-light;
+  padding: 1rem;
 
   .checkout-content {
     h3 {
@@ -198,7 +196,7 @@
       padding: 0 4.5rem;
     }
 
-    padding: 2rem;
+    padding-top: 2rem;
     background-color: $color-white;
 
     .theme--light.v-stepper {
@@ -295,7 +293,7 @@
 
         .country-name {
           font-weight: 600;
-          font-size: .9rem;
+          font-size: 0.9rem;
           margin-left: 0.5rem;
         }
       }
@@ -316,7 +314,7 @@
             .custom-control-label {
               // color: violet;
               font-weight: 600;
-              font-size: .9rem;
+              font-size: 0.9rem;
 
               .busines-day {
                 // color: yellow;
@@ -328,14 +326,60 @@
         }
       }
     }
+    .buttons-section {
+      background-color: $color-grey-dark-9;
+      padding: 1.5rem 4rem;
+      display: flex;
+      justify-content: flex-end;
+      .btn {
+        background-color: $color-primary;
+        color: $color-white;
+        border-radius: 3rem;
+        padding: 0.5rem 3.5rem;
+        font-weight: 600;
+        &:focus {
+          // outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+    .buttons-section-step {
+      background-color: $color-grey-dark-9;
+      padding: 1.5rem 4rem;
+      display: flex;
+      justify-content: space-between;
+      .perv-btn {
+        background-color: $color-white;
+        color: $color-primary;
+        border-radius: 3rem;
+        padding: 0.5rem 3.5rem;
+        font-weight: 600;
+        &:focus {
+          // outline: none;
+          box-shadow: none;
+        }
+      }
+      .next-btn {
+        background-color: $color-primary;
+        color: $color-white;
+        border-radius: 3rem;
+        padding: 0.5rem 3.5rem;
+        font-weight: 600;
+        &:focus {
+          // outline: none;
+          box-shadow: none;
+        }
+      }
+    }
 
     ///////////////////////////confirmation section
     .order-confirmation {
-      border-bottom: 2px solid $color-grey-dark-6;
+      // border-bottom: 2px solid $color-grey-dark-6;
       padding: 2.5rem;
 
       h5 {
-        font-size: 1rem
+        font-size: 1rem;
+        font-weight: 600;
       }
 
       .order-summery-head {
@@ -366,7 +410,7 @@
 
         .price {
           color: $color-primary;
-          // font-weight: 600;
+          font-weight: 600;
         }
       }
 
@@ -397,9 +441,9 @@
 
     .other-details {
       display: flex;
-
+      padding: 1.5rem 0;
       margin: 1.5rem 0.5rem;
-
+      border-top: 2px solid  $color-grey-dark-6;
       .subtotal {
         display: flex;
         flex-direction: column;
@@ -448,7 +492,66 @@
     ////////////////////////////////////////////////////////payment-section///////////
     .payment {
       .payment-images {
+        display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+      }
+      .form-section {
         padding: 4rem;
+        p {
+          color: $color-night-2;
+        }
+        label {
+          color: $color-grey-dark-6;
+        }
+        .form-control {
+          &::placeholder {
+            color: $color-grey-dark-6;
+          }
+          &:focus {
+            box-shadow: none;
+            outline: none;
+            border-color: $color-primary;
+          }
+        }
+      }
+    }
+    ////////////////////////////////////////////
+    .sucess {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      //     width: 50%;
+      //     position: absolute;
+      //     top: 50%;
+      //     left: 50%;
+      //     transform: translate(-50%, -50%);
+      //     background-color: $color-white;
+      padding: 2rem;
+      img {
+        margin-right: 1.5rem;
+      }
+      h2 {
+        color: $color-night;
+
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        color: $color-night-2;
+      }
+      button {
+        background-color: $color-primary;
+        color: $color-white;
+        padding: 1rem 3rem;
+        border-radius: 3rem;
+        margin-top: 2rem;
+        font-weight: 600;
+        font-size: 0.9rem;
       }
     }
   }

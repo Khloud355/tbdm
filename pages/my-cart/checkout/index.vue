@@ -99,9 +99,11 @@
                     </div>
                   </div>
                 </div>
-                <button class="btn" type="button" @click="e1 = 2">
-                  <span>Next</span>
-                </button>
+                <div class="buttons-section">
+                  <button class="btn" type="button" @click="e1 = 2">
+                    <span>Next</span>
+                  </button>
+                </div>
               </v-stepper-content>
               <v-stepper-content step="2">
                 <div class="order-confirmation">
@@ -145,7 +147,7 @@
                       <h5>Delivery</h5>
                       <div class="details">
                         <h6>Address</h6>
-                        <p>lorem khloud,kjffkncdmsac.mdl ,vnjfbv ifbk</p>
+                        <p>lorem khloud,kjffkncdmsac.mdl ,<br>vnjfbv ifbk</p>
                         <h6>Delivery options</h6>
                         <p>
                           standard delivery
@@ -154,7 +156,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                
                 <div class="other-details">
                   <div class="subtotal">
                     <span class="total"> Subtotal </span>
@@ -169,14 +171,15 @@
                     <span class="total-num">£340</span>
                   </div>
                 </div>
-
-                <button class="btn perv-btn" type="button" @click="e1 = 1">
-                  <img src="/images/icons/svg/left-green-arrow.svg" alt />
-                  <span>Previous</span>
-                </button>
-                <button class="btn" type="button" @click="e1 = 3">
-                  <span>Next</span>
-                </button>
+</div>
+                <div class="buttons-section-step">
+                  <button class="btn perv-btn" type="button" @click="e1 = 1">
+                    <span>Back</span>
+                  </button>
+                  <button class="btn next-btn" type="button" @click="e1 = 3">
+                    <span>Next</span>
+                  </button>
+                </div>
               </v-stepper-content>
               <v-stepper-content step="3">
                 <div class="payment">
@@ -185,50 +188,88 @@
 
                     <img src="/images/pay with paypal.png" alt="" />
                   </div>
-
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="form-group">
-                        <label for="cardname">Cardholder's Name</label>
-                        <input
-                          type="cardname"
-                          class="form-control"
-                          id="cardname"
-                        />
+                  <div class="form-section">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="cardname">Cardholder's Name</label>
+                          <input
+                            type="cardname"
+                            class="form-control form-control-lg"
+                            id="cardname"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="cardnum">Card number</label>
+                          <input
+                            type="cardnum"
+                            class="form-control form-control-lg"
+                            id="cardnum"
+                          />
+                        </div>
                       </div>
                     </div>
-                    <div class="col-5">
-                      <div class="form-group">
-                        <label for="cardnum">Card number</label>
-                        <input
-                          type="cardnum"
-                          class="form-control"
-                          id="cardnum"
-                        />
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-6">
+                            <div class="form-group">
+                              
+                              <label for="valid">Valid thru</label>
+                         
+    <input
+                                type="cardname"
+                                class="form-control form-control-lg"
+                                id="valid"
+                              />
+    <!-- <b-form-datepicker id="datepicker-lg-placeholder" placeholder="MM/YY" locale="en"></b-form-datepicker> -->
+  
+                          </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="form-group">
+                              <label for="cvv">CVV/CVC*</label>
+                              <input
+                                type="cardname"
+                                class="form-control form-control-lg"
+                                id="cvv"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <P
+                          >*CVV/CVC is the card securty code, unique three digits
+                          number on<br />
+                          the back of your card seperate form its number</P
+                        >
                       </div>
                     </div>
                   </div>
                 </div>
-                <button class="btn" type="button" @click="e1 = 4">
-                  <span>Next</span>
-                </button>
-                <button class="btn perv-btn" type="button" @click="e1 = 2">
-                  <img src="/images/icons/svg/left-green-arrow.svg" alt />
-                  <span>Previous</span>
-                </button>
+              
+                <div class="buttons-section-step">
+                  <button class="btn perv-btn" type="button" @click="e1 = 2">
+                    <span>Back</span>
+                  </button>
+                  <button class="btn next-btn" type="button" @click="e1 = 4">
+                    <span>Next</span>
+                  </button>
+                </div>
               </v-stepper-content>
               <v-stepper-content step="4">
                 <div class="sucess">
-                  <img src="/images/logo.png" alt="">
+                  <img src="/images/logo.png" alt="" />
+                  <h2>Success!</h2>
+                  <p>Your item will be shipped shortly,<br>
+                  you will git email with details.</p>
+                  <button>Back to shop</button>
                 </div>
-
-
-
-
-                <button class="btn perv-btn" type="button" @click="e1 = 1">
-                  <img src="/images/icons/svg/left-green-arrow.svg" alt />
-                  <span>Previous</span>
-                </button>
+   
+               
               </v-stepper-content>
             </v-stepper-items>
           </form>
