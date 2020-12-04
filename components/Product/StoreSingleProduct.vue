@@ -1,50 +1,46 @@
 <template>
-     <div class="product">
-        <v-sheet
-        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-        class="pa-3"
-        >
-        <!-- <div class="container"> -->
-        <!-- <v-row> -->
-            <!-- <v-col cols="12" md="4"> -->
+  <div class="product">
+    <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+      <!-- <div class="container"> -->
+      <!-- <v-row> -->
+      <!-- <v-col cols="12" md="4"> -->
 
-            <v-skeleton-loader
-                type="image,table-heading,list-item-two-line, actions"
-            ></v-skeleton-loader>
+      <!-- <v-skeleton-loader type="actions"></v-skeleton-loader> -->
+      <v-skeleton-loader type="image,table-heading,list-item-two-line, actions"></v-skeleton-loader>
 
-            <!-- <v-skeleton-loader
+      <!-- <v-skeleton-loader
             v-bind="attrs"
             type="date-picker"
-            ></v-skeleton-loader> -->
-            <!-- </v-col> -->
-        <!-- </v-row> -->
-        <!-- </div> -->
-        </v-sheet>
-    </div>
+      ></v-skeleton-loader>-->
+      <!-- </v-col> -->
+      <!-- </v-row> -->
+      <!-- </div> -->
+    </v-sheet>
+  </div>
 </template>
 
 <script>
 export default {
-    inject: {
-        theme: {
-        default: { isDark: false },
-        },
-
-        //   data: () => ({
-        //     attrs: {
-        //       class: "mb-6",
-        //       boilerplate: true,
-        //       elevation: 2,
-        //     },
-        //   }),
-        // },
+  inject: {
+    theme: {
+      default: { isDark: false },
     },
-    data() {
-        return {
-            quantity: false
-        }
-    }
-}
+
+    //   data: () => ({
+    //     attrs: {
+    //       class: "mb-6",
+    //       boilerplate: true,
+    //       elevation: 2,
+    //     },
+    //   }),
+    // },
+  },
+  data() {
+    return {
+      quantity: false,
+    };
+  },
+};
 </script>
 
 <style lang="scss">
@@ -69,7 +65,8 @@ export default {
   padding: 0 !important;
   .v-skeleton-loader__button {
     width: 50%;
-  padding: .5rem 0;
+    padding: 0.5rem 0;
+    border-radius: 1px !important;
   }
 }
 .v-skeleton-loader__text {
@@ -81,7 +78,7 @@ export default {
 }
 .v-skeleton-loader__heading {
   // border-radius: 10px;
-    padding: 0.3rem 0.6rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 0 !important;
 }
 .v-skeleton-loader__table-heading {
