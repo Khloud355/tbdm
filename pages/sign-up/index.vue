@@ -6,14 +6,16 @@
           <div class="col-6">
             <div class="images">
                 <img src="/images/login-pic.png" alt="">
+                <p>Creat Account or</p>
+
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="" class="facebook-link">
                             Sign Up with Facebook
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="" class="google-link">
                             Sign Up with Google
                         </a>
                     </li>
