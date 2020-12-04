@@ -236,9 +236,20 @@
 
         .v-divider {
           border-width: thick 0 0 0;
+          
         }
+    
       }
-
+    //   .theme--light.v-divider {
+    //    background-color: blue;
+    // }
+    // hr{
+    //   background-color: aqua;
+    //   &:inactive{
+    //     background-color: black;
+    //   }
+    // }
+  
       .v-stepper__items {
         .v-stepper__content {
           padding: 0;
@@ -252,6 +263,7 @@
       .form-group {
         // margin-top: 1rem;
         position: relative;
+     
 
         label {
           font-size: 0.9rem;
@@ -443,7 +455,7 @@
       display: flex;
       padding: 1.5rem 0;
       margin: 1.5rem 0.5rem;
-      border-top: 2px solid  $color-grey-dark-6;
+      border-top: 2px solid $color-grey-dark-6;
       .subtotal {
         display: flex;
         flex-direction: column;
@@ -493,14 +505,24 @@
     .payment {
       .payment-images {
         display: flex;
-    justify-content: space-between;
-    padding: 0 4rem;
+        justify-content: space-around;
+        padding: 0 4rem;
       }
       .form-section {
         padding: 4rem;
         p {
           color: $color-night-2;
         }
+        .form-group{
+          position: relative;
+        
+            img {
+              position: absolute;
+              top: 57%;
+    
+              right: 3%;
+            }
+          
         label {
           color: $color-grey-dark-6;
         }
@@ -514,6 +536,7 @@
             border-color: $color-primary;
           }
         }
+      }
       }
     }
     ////////////////////////////////////////////
@@ -552,6 +575,10 @@
         margin-top: 2rem;
         font-weight: 600;
         font-size: 0.9rem;
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
       }
     }
   }

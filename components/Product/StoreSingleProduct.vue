@@ -1,54 +1,44 @@
 <template>
-    <div class="product">
-        <div class="product-container">
-            <div class="vendor-img">
-                <img src="/images/offer-logo.PNG" alt="">
-            </div>
-            <div class="sale">
-                <span>50%</span>
-            </div>
-            <div class="card">
-                <div class="card-hover">
-                    <div class="product-img">
-                        <img src="/images/apple-watch.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <div class="info">
-                            <div class="rate">
-                                <span>3.4</span>
-                                <img src="/images/icons/svg/vendor-star.svg" alt="">
-                            </div>
-                            <div class="price">
-                                <span class="discount">$500</span>
-                                <span class="original">$400</span>
-                            </div>
-                        </div>
-                        <h6>Apple Watch Series 4 GPS</h6>
-                        <p>Redesigned from scratch and completely revised.</p>
-                    </div>
-                </div>
-                <div class="actions">
-                    <div class="row no-gutters">
-                        <div class="col-6 wishlist-btn" :class="{'hide-btn': quantity}">
-                            <img src="/images/icons/svg/heart-empty.svg" alt="">
-                            <span>WISHLIST</span>
-                        </div>
-                        <div class="col-6 add-cart-btn" :class="{'hide-btn': quantity}" @click="quantity = true">
-                            <img src="/images/icons/svg/shopping-bag.svg" alt="">
-                            <span>ADD TO CART</span>
-                        </div>
-                        <div class="col-12 control" :class="{'hide': !quantity}" @click="quantity = false">
-                            added
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+     <div class="product">
+        <v-sheet
+        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+        class="pa-3"
+        >
+        <!-- <div class="container"> -->
+        <!-- <v-row> -->
+            <!-- <v-col cols="12" md="4"> -->
+
+            <v-skeleton-loader
+                type="image,table-heading,list-item-two-line, actions"
+            ></v-skeleton-loader>
+
+            <!-- <v-skeleton-loader
+            v-bind="attrs"
+            type="date-picker"
+            ></v-skeleton-loader> -->
+            <!-- </v-col> -->
+        <!-- </v-row> -->
+        <!-- </div> -->
+        </v-sheet>
     </div>
 </template>
 
 <script>
 export default {
+    inject: {
+        theme: {
+        default: { isDark: false },
+        },
+
+        //   data: () => ({
+        //     attrs: {
+        //       class: "mb-6",
+        //       boilerplate: true,
+        //       elevation: 2,
+        //     },
+        //   }),
+        // },
+    },
     data() {
         return {
             quantity: false
@@ -56,3 +46,52 @@ export default {
     }
 }
 </script>
+
+<style lang="scss">
+.v-skeleton-loader {
+  border: none;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
+  border-radius: 8px;
+  /* transition: all 0.3s; */
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.v-skeleton-loader__image {
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 0;
+  overflow: hidden;
+  height: 250px !important;
+}
+.v-skeleton-loader__actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+  .v-skeleton-loader__button {
+    width: 50%;
+  padding: .5rem 0;
+  }
+}
+.v-skeleton-loader__text {
+  width: 34%;
+
+  &:last-child {
+    width: 70%;
+  }
+}
+.v-skeleton-loader__heading {
+  // border-radius: 10px;
+    padding: 0.3rem 0.6rem;
+  border-radius: 0 !important;
+}
+.v-skeleton-loader__table-heading {
+  padding: 16px 16px 0px !important;
+  .v-skeleton-loader__text {
+    &:last-child {
+      max-width: 17%;
+      padding: 0.8rem;
+      border-radius: 0;
+    }
+  }
+}
+</style>

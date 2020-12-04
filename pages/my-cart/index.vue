@@ -17,7 +17,7 @@
                 </div>
               </div>
             </div>
-            <div class="cart-content" v-for="wishlist in 4" :key="wishlist">
+            <div class="cart-content" v-for="cart in 4" :key="cart">
               <div class="row counter no-gutters">
                 <div class="col-8">
                   <div class="content">

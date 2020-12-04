@@ -1,34 +1,4 @@
 {
-  "StoreSingleOffer": {
-    "description": "Auto imported from components/Product/StoreSingleOffer.vue"
-  },
-  "LazyStoreSingleOffer": {
-    "description": "Auto imported from components/Product/StoreSingleOffer.vue"
-  },
-  "StoreSingleProduct": {
-    "description": "Auto imported from components/Product/StoreSingleProduct.vue"
-  },
-  "LazyStoreSingleProduct": {
-    "description": "Auto imported from components/Product/StoreSingleProduct.vue"
-  },
-  "StoreSliderOffer": {
-    "description": "Auto imported from components/Product/StoreSliderOffer.vue"
-  },
-  "LazyStoreSliderOffer": {
-    "description": "Auto imported from components/Product/StoreSliderOffer.vue"
-  },
-  "StoreSliderProduct": {
-    "description": "Auto imported from components/Product/StoreSliderProduct.vue"
-  },
-  "LazyStoreSliderProduct": {
-    "description": "Auto imported from components/Product/StoreSliderProduct.vue"
-  },
-  "StoreSliderRelatedProduct": {
-    "description": "Auto imported from components/Product/StoreSliderRelatedProduct.vue"
-  },
-  "LazyStoreSliderRelatedProduct": {
-    "description": "Auto imported from components/Product/StoreSliderRelatedProduct.vue"
-  },
   "RestaurantMainCategories": {
     "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
   },
@@ -58,6 +28,36 @@
   },
   "LazyNavbar": {
     "description": "Auto imported from components/Navigation/Navbar.vue"
+  },
+  "StoreSingleOffer": {
+    "description": "Auto imported from components/Product/StoreSingleOffer.vue"
+  },
+  "LazyStoreSingleOffer": {
+    "description": "Auto imported from components/Product/StoreSingleOffer.vue"
+  },
+  "StoreSingleProduct": {
+    "description": "Auto imported from components/Product/StoreSingleProduct.vue"
+  },
+  "LazyStoreSingleProduct": {
+    "description": "Auto imported from components/Product/StoreSingleProduct.vue"
+  },
+  "StoreSliderOffer": {
+    "description": "Auto imported from components/Product/StoreSliderOffer.vue"
+  },
+  "LazyStoreSliderOffer": {
+    "description": "Auto imported from components/Product/StoreSliderOffer.vue"
+  },
+  "StoreSliderProduct": {
+    "description": "Auto imported from components/Product/StoreSliderProduct.vue"
+  },
+  "LazyStoreSliderProduct": {
+    "description": "Auto imported from components/Product/StoreSliderProduct.vue"
+  },
+  "StoreSliderRelatedProduct": {
+    "description": "Auto imported from components/Product/StoreSliderRelatedProduct.vue"
+  },
+  "LazyStoreSliderRelatedProduct": {
+    "description": "Auto imported from components/Product/StoreSliderRelatedProduct.vue"
   },
   "SingleRestaurant": {
     "description": "Auto imported from components/Vendor/SingleRestaurant.vue"

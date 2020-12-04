@@ -1,0 +1,367 @@
+.login {
+  background-color: $color-grey-light;
+  padding: 1rem;
+  .login-page {
+    background-color: $color-white;
+    padding: 2rem 3rem;
+    position: relative;
+    .image {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    .login-content {
+      h3 {
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      p {
+        color: $color-night-2;
+      }
+      .form {
+        margin-top: 3rem;
+        .form-group {
+          position: relative;
+          img {
+            position: absolute;
+            right: 3%;
+            top: 62%;
+          }
+          label {
+            color: $color-grey-dark-10;
+            font-size: 1.3rem;
+          }
+          .form-control {
+            background-color: $color-grey-light-3;
+            border: none;
+            &:focus {
+              box-shadow: none;
+            }
+          }
+        }
+        .forget-link {
+          text-decoration: none;
+          color: $color-secondary;
+          display: flex;
+          justify-content: flex-end;
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+        button {
+          width: 100%;
+          background-color: $color-primary;
+          padding: 1rem;
+          border-radius: 7px;
+          font-weight: 600;
+          font-size: 1.3rem;
+          margin: 1rem 0 2rem;
+          color: $color-white;
+          &:focus {
+            outline: none;
+          }
+        }
+        p {
+          text-align: center;
+          color: $color-night-3;
+          margin-bottom: 0;
+          font-weight: 600;
+          font-size: 1.1rem;
+        }
+        .sign-link {
+          display: flex;
+          justify-content: center;
+          color: $color-primary;
+          text-decoration: none;
+          // font-weight: 600;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+//////////////////////////////////////////////////////////////////////////////////////
+// start forgot password////////////////////////////////////////////////////
+.forget-password {
+  background-color: $color-grey-light;
+  padding: 1rem;
+  .forget-page {
+    background-color: $color-white;
+    padding: 2rem 3rem;
+    // position: relative;
+    .image {
+      margin-top: 2rem;
+    }
+    .forget-content {
+      h3 {
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      p {
+        color: $color-night-2;
+      }
+      .forget-form {
+        margin-top: 3rem;
+        .form-group {
+          label {
+            color: $color-grey-dark-10;
+            font-size: 1.3rem;
+          }
+          .form-control {
+            background-color: $color-grey-light-3;
+            border: none;
+            &:focus {
+              box-shadow: none;
+            }
+          }
+        }
+        button {
+          width: 100%;
+          background-color: $color-primary;
+          padding: 1rem;
+          border-radius: 7px;
+          font-weight: 600;
+          font-size: 1.5rem;
+          margin: 2rem 0 2rem;
+          color: $color-white;
+          &:focus {
+            outline: none;
+          }
+        }
+        p {
+          text-align: center;
+          color: $color-night-3;
+          margin-bottom: 0;
+          font-weight: 600;
+          font-size: 1.1rem;
+        }
+        .sign-link {
+          display: flex;
+          justify-content: center;
+          color: $color-primary;
+          text-decoration: none;
+          // font-weight: 600;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+//////////////////////////////////////////////////////
+// mobile verfication/////////////////////////////////////////////////
+.mobile-verfiy {
+  background-color: $color-grey-light;
+  padding: 1rem;
+  .verfiy-page {
+    background-color: $color-white;
+    padding: 2rem 3rem;
+    .image {
+      margin-top: 2rem;
+    }
+    h3 {
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    p {
+      color: $color-night-2;
+      font-size: .9rem;
+    }
+    .resend{
+        color: #909090;
+        font-size: 1rem;
+    }
+    .boxes {
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem 0;
+      .box {
+        input {
+          width: 3.5rem;
+          height: 3.5rem;
+          border-radius: 10px;
+          background-color: $color-grey-light-3;
+          text-align: center;
+          &:focus {
+            outline: none;
+            border: 1px solid $color-primary;
+          }
+        }
+      }
+    }
+    button {
+      width: 100%;
+      background-color: $color-primary;
+      padding: 1rem;
+      border-radius: 7px;
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin: 2rem 0 2rem;
+      color: $color-white;
+      &:focus {
+        outline: none;
+      }
+    }
+    .recive {
+      text-align: center;
+      color: $color-night-3;
+      margin-bottom: 0;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .sign-link {
+      display: flex;
+      justify-content: center;
+      color: $color-primary;
+      text-decoration: none;
+      // font-weight: 600;
+      font-size: 1.3rem;
+    }
+  }
+}
+///////////////////////////////////////////////////////////////////////
+// forgot password/////////////////////////////////////////////
+.create-password {
+  background-color: $color-grey-light;
+  padding: 1rem;
+  .password-page {
+    background-color: $color-white;
+    padding: 2rem 3rem;
+    .image {
+      margin-top: 2rem;
+    }
+    .password-content {
+      h3 {
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      p {
+        color: $color-night-2;
+        font-size: .9rem;
+      }
+      .password-form {
+        margin-top: 3rem;
+        .form-group {
+            position: relative;
+            img {
+                position: absolute;
+                right: 3%;
+                top: 62%;
+              }
+          label {
+            color: $color-grey-dark-10;
+            font-size: 1.3rem;
+          }
+          .form-control {
+            background-color: $color-grey-light-3;
+            border: none;
+            &:focus {
+              box-shadow: none;
+            }
+          }
+        }
+     
+      }
+      button {
+        width: 100%;
+        background-color: $color-primary;
+        padding: 1rem;
+        border-radius: 7px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin: 2rem 0 2rem;
+        color: $color-white;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+/////////////////////////////////////////////////////////////
+// sign up.//////////////////////////////////
+.sing-up{
+  background-color: $color-grey-light;
+  padding: 1rem;
+  .sign-page{
+    background-color: $color-white;
+    padding: 2rem 3rem;
+    position: relative;
+    .images{
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-items: center;
+      ul{
+        list-style: none;
+      
+      }
+      li{
+        a{
+          display: flex;
+          text-decoration: none;
+          padding: 1rem;
+          // color: $color-white;
+        }
+      }
+    }
+    .sign-content{
+      h3 {
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      p {
+        color: $color-night-2;
+        font-size: .9rem;
+      }
+      .sign-form{
+        .form-group {
+          position: relative;
+          img {
+              position: absolute;
+              right: 3%;
+              top: 62%;
+            }
+        label {
+          color: $color-grey-dark-10;
+          font-size: 1.3rem;
+        }
+        .form-control {
+          background-color: $color-grey-light-3;
+          border: none;
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+      button {
+        width: 100%;
+        background-color: $color-primary;
+        padding: 1rem;
+        border-radius: 7px;
+        font-weight: 600;
+        font-size: 1.3rem;
+        margin: 1rem 0 2rem;
+        color: $color-white;
+        &:focus {
+          outline: none;
+        }
+      }
+      p {
+        text-align: center;
+        color: $color-night-3;
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+      .sign-link {
+        display: flex;
+        justify-content: center;
+        color: $color-primary;
+        text-decoration: none;
+        // font-weight: 600;
+        font-size: 1.3rem;
+      }
+   
+      }
+    }
+  }
+}
