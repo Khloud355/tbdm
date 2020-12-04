@@ -23,7 +23,7 @@
                 </div>
                   <button>Verify</button>
                      <p>Don't have any account?</p>
-                   <a href="#" class="sign-link">Sign Up</a>
+                   <nuxt-link to="sign-up" class="sign-link">Sign Up</nuxt-link>
 
             </div>
         </div>
