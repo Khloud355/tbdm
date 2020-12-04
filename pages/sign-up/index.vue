@@ -5,18 +5,28 @@
         <div class="row">
           <div class="col-6">
             <div class="images">
-                <img src="/images/login-pic.png" alt="">
+                <img src="/images/sign.png" alt="">
                 <p>Creat Account or</p>
 
                 <ul>
                     <li>
+                     
                         <a href="" class="facebook-link">
-                            Sign Up with Facebook
+                          <div class="box">
+                           <img src="/images/icons/svg/icon-facebook.svg" alt="">
+                           </div>
+                           <span>Sign Up with Facebook</span>
+                          
                         </a>
                     </li>
                     <li>
+                      
                         <a href="" class="google-link">
-                            Sign Up with Google
+                          <div class="box">
+                          <img src="/images/icons/svg/icon-google.svg" alt="">
+                          </div>
+                          <span>  Sign Up with Google</span>
+                          
                         </a>
                     </li>
                 </ul>
