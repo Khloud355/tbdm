@@ -2,175 +2,204 @@
   {
     "name": "checkout",
     "path": "/checkout",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\checkout\\\\index.vue",
-    "chunkName": "pages/checkout/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\checkout\\\\index.vue",
+    "chunkName": "pages/checkout/index",
+    "_name": "_5d8c8846"
   },
   {
     "name": "create-password",
     "path": "/create-password",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\create-password\\\\index.vue",
-    "chunkName": "pages/create-password/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\create-password\\\\index.vue",
+    "chunkName": "pages/create-password/index",
+    "_name": "_17f879f6"
   },
   {
     "name": "forget-password",
     "path": "/forget-password",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\forget-password\\\\index.vue",
-    "chunkName": "pages/forget-password/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\forget-password\\\\index.vue",
+    "chunkName": "pages/forget-password/index",
+    "_name": "_5d45bd14"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\login\\\\index.vue",
-    "chunkName": "pages/login/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\login\\\\index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_7730e6f0"
   },
   {
     "name": "mobile-verfication",
     "path": "/mobile-verfication",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\mobile-verfication\\\\index.vue",
-    "chunkName": "pages/mobile-verfication/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\mobile-verfication\\\\index.vue",
+    "chunkName": "pages/mobile-verfication/index",
+    "_name": "_21d7f6d4"
   },
   {
     "name": "my-cart",
     "path": "/my-cart",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\my-cart\\\\index.vue",
-    "chunkName": "pages/my-cart/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\my-cart\\\\index.vue",
+    "chunkName": "pages/my-cart/index",
+    "_name": "_6e95fee0"
   },
   {
     "name": "partner",
     "path": "/partner",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\index.vue",
-    "chunkName": "pages/partner/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\index.vue",
+    "chunkName": "pages/partner/index",
+    "_name": "_d2cd5fee"
   },
   {
     "name": "services",
     "path": "/services",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\index.vue",
-    "chunkName": "pages/services/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\index.vue",
+    "chunkName": "pages/services/index",
+    "_name": "_0ac0cc76"
   },
   {
     "name": "sign-up",
     "path": "/sign-up",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\sign-up\\\\index.vue",
-    "chunkName": "pages/sign-up/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\sign-up\\\\index.vue",
+    "chunkName": "pages/sign-up/index",
+    "_name": "_1cb1cc46"
   },
   {
     "name": "skeleton",
     "path": "/skeleton",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\skeleton\\\\index.vue",
-    "chunkName": "pages/skeleton/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\skeleton\\\\index.vue",
+    "chunkName": "pages/skeleton/index",
+    "_name": "_70aab676"
   },
   {
     "name": "timer",
     "path": "/timer",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\timer\\\\index.vue",
-    "chunkName": "pages/timer/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\timer\\\\index.vue",
+    "chunkName": "pages/timer/index",
+    "_name": "_65bf332c"
   },
   {
     "name": "vendor-profile",
     "path": "/vendor-profile",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\index.vue",
-    "chunkName": "pages/vendor-profile/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\index.vue",
+    "chunkName": "pages/vendor-profile/index",
+    "_name": "_7cbd897f"
   },
   {
     "name": "partner-doctor",
     "path": "/partner/doctor",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\doctor\\\\index.vue",
-    "chunkName": "pages/partner/doctor/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\doctor\\\\index.vue",
+    "chunkName": "pages/partner/doctor/index",
+    "_name": "_93de09ec"
   },
   {
     "name": "partner-driver",
     "path": "/partner/driver",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\driver\\\\index.vue",
-    "chunkName": "pages/partner/driver/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\driver\\\\index.vue",
+    "chunkName": "pages/partner/driver/index",
+    "_name": "_2eef373e"
   },
   {
     "name": "partner-merchant",
     "path": "/partner/merchant",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\merchant\\\\index.vue",
-    "chunkName": "pages/partner/merchant/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\merchant\\\\index.vue",
+    "chunkName": "pages/partner/merchant/index",
+    "_name": "_527679fe"
   },
   {
     "name": "partner-profession",
     "path": "/partner/profession",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\profession\\\\index.vue",
-    "chunkName": "pages/partner/profession/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\profession\\\\index.vue",
+    "chunkName": "pages/partner/profession/index",
+    "_name": "_46e9a78d"
   },
   {
     "name": "partner-realestate-developer",
     "path": "/partner/realestate-developer",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\realestate-developer\\\\index.vue",
-    "chunkName": "pages/partner/realestate-developer/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\realestate-developer\\\\index.vue",
+    "chunkName": "pages/partner/realestate-developer/index",
+    "_name": "_6394a0c2"
   },
   {
     "name": "services-restaurants",
     "path": "/services/restaurants",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\restaurants\\\\index.vue",
-    "chunkName": "pages/services/restaurants/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\restaurants\\\\index.vue",
+    "chunkName": "pages/services/restaurants/index",
+    "_name": "_f4b1864e"
   },
   {
     "name": "vendor-profile-my-auction",
     "path": "/vendor-profile/my-auction",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\my-auction\\\\index.vue",
-    "chunkName": "pages/vendor-profile/my-auction/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\my-auction\\\\index.vue",
+    "chunkName": "pages/vendor-profile/my-auction/index",
+    "_name": "_5bc7abc6"
   },
   {
     "name": "vendor-profile-orders",
     "path": "/vendor-profile/orders",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\orders\\\\index.vue",
-    "chunkName": "pages/vendor-profile/orders/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\orders\\\\index.vue",
+    "chunkName": "pages/vendor-profile/orders/index",
+    "_name": "_4cde560c"
   },
   {
     "name": "vendor-profile-reservation",
     "path": "/vendor-profile/reservation",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\reservation\\\\index.vue",
-    "chunkName": "pages/vendor-profile/reservation/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\reservation\\\\index.vue",
+    "chunkName": "pages/vendor-profile/reservation/index",
+    "_name": "_0ea52ea9"
   },
   {
     "name": "vendor-profile-subscribe-auction",
     "path": "/vendor-profile/subscribe-auction",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\subscribe-auction\\\\index.vue",
-    "chunkName": "pages/vendor-profile/subscribe-auction/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\subscribe-auction\\\\index.vue",
+    "chunkName": "pages/vendor-profile/subscribe-auction/index",
+    "_name": "_2e8fa8f5"
   },
   {
     "name": "vendor-profile-wishlist",
     "path": "/vendor-profile/wishlist",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\wishlist\\\\index.vue",
-    "chunkName": "pages/vendor-profile/wishlist/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\wishlist\\\\index.vue",
+    "chunkName": "pages/vendor-profile/wishlist/index",
+    "_name": "_4104764c"
   },
   {
     "name": "vendor-profile-orders-order-details",
     "path": "/vendor-profile/orders/order-details",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\orders\\\\order-details\\\\index.vue",
-    "chunkName": "pages/vendor-profile/orders/order-details/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\orders\\\\order-details\\\\index.vue",
+    "chunkName": "pages/vendor-profile/orders/order-details/index",
+    "_name": "_0d922892"
   },
   {
     "name": "services-store-vendor-vendorId",
     "path": "/services/store/vendor/:vendorId",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\store\\\\vendor\\\\_vendorId\\\\index.vue",
-    "chunkName": "pages/services/store/vendor/_vendorId/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\store\\\\vendor\\\\_vendorId\\\\index.vue",
+    "chunkName": "pages/services/store/vendor/_vendorId/index",
+    "_name": "_384e1a68"
   },
   {
     "name": "services-store-product-productId-productName",
     "path": "/services/store/product/:productId?/:productName",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\store\\\\product\\\\_productId\\\\_productName\\\\index.vue",
-    "chunkName": "pages/services/store/product/_productId/_productName/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\store\\\\product\\\\_productId\\\\_productName\\\\index.vue",
+    "chunkName": "pages/services/store/product/_productId/_productName/index",
+    "_name": "_80459e5e"
   },
   {
     "name": "services-restaurants-restaurantId-restaurantName",
     "path": "/services/restaurants/:restaurantId/:restaurantName",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\restaurants\\\\_restaurantId\\\\_restaurantName\\\\index.vue",
-    "chunkName": "pages/services/restaurants/_restaurantId/_restaurantName/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\restaurants\\\\_restaurantId\\\\_restaurantName\\\\index.vue",
+    "chunkName": "pages/services/restaurants/_restaurantId/_restaurantName/index",
+    "_name": "_19900f89"
   },
   {
     "name": "services-store-subCatId-id",
     "path": "/services/store/:subCatId?/:id",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\store\\\\_subCatId\\\\_id\\\\index.vue",
-    "chunkName": "pages/services/store/_subCatId/_id/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\store\\\\_subCatId\\\\_id\\\\index.vue",
+    "chunkName": "pages/services/store/_subCatId/_id/index",
+    "_name": "_4e4a1844"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "E:\\\\Tbdmm-test\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_31737fa3"
   }
 ]

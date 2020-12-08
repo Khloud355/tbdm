@@ -86,7 +86,7 @@ export default {
   .v-skeleton-loader__text {
     &:last-child {
       max-width: 17%;
-      padding: 0.8rem;
+          padding: 0.2rem;
       border-radius: 0;
     }
   }

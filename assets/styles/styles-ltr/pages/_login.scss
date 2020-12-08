@@ -11,6 +11,10 @@
       position: absolute;
       top: 50%;
       transform: translate(0, -50%);
+      img{
+        height: 300px;
+        object-fit: contain;
+      }
     }
 
     .login-content {
@@ -108,6 +112,10 @@
     // position: relative;
     .image {
       margin-top: 2rem;
+      img{
+        height: 300px;
+        object-fit: contain;
+      }
     }
 
     .forget-content {
@@ -187,6 +195,10 @@
 
     .image {
       margin-top: 2rem;
+      img{
+        height: 300px;
+        object-fit: contain;
+      }
     }
 
     h3 {
@@ -271,6 +283,10 @@
 
     .image {
       margin-top: 2rem;
+      img{
+        height: 300px;
+        object-fit: contain;
+      }
     }
 
     .password-content {
@@ -343,6 +359,10 @@
 
     // position: relative;
     .images {
+      img{
+      height: 300px;
+      object-fit: contain;
+      }
       p {
         text-align: center;
         font-weight: 600;

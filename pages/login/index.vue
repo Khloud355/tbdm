@@ -12,6 +12,7 @@
             <div class="login-content">
               <h3>Welcome Back,</h3>
               <p>Enter your mobile number you use for register in TBDM</p>
+              <form>
               <div class="form">
                 <div class="form-group">
                   <label for="mobilenum">Mobile Number</label>
@@ -33,6 +34,7 @@
                 <nuxt-link to="forget-password" class="forget-link">
                    <span>Forgot Password?</span> </nuxt-link>
                    <button>Login</button>
+                   </form>
                    <p>Don't have any account?</p>
                    <nuxt-link to="sign-up" class="sign-link">Sign Up</nuxt-link>
               </div>
@@ -40,6 +42,7 @@
           </div>
         </div>
       </div>
-    </div>
+      
+    <!-- </div> -->
   </section>
 </template>
