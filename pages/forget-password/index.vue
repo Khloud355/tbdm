@@ -13,6 +13,7 @@
                 <h3>Forgot Password</h3>
                 <p>Enter the mobile number you used to TBDM</p>
                 <div class="forget-form">
+                    <form>
                   <div class="form-group">
                   <label for="mobilenum">Mobile Number</label>
                   <input
@@ -22,8 +23,9 @@
                   />
                 </div>
                   <button>Verify</button>
-                     <p>Don't have any account?</p>
-                   <nuxt-link to="sign-up" class="sign-link">Sign Up</nuxt-link>
+                    </form>
+                     <p>Don't have an account?</p>
+              <span class="sign-link"><nuxt-link to="sign-up">Sign Up</nuxt-link></span>    
 
             </div>
         </div>

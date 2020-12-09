@@ -11,7 +11,7 @@
       position: absolute;
       top: 50%;
       transform: translate(0, -50%);
-      img{
+      img {
         height: 300px;
         object-fit: contain;
       }
@@ -27,16 +27,24 @@
         color: $color-night-2;
       }
 
-      .form {
+      .login-form {
         margin-top: 3rem;
 
         .form-group {
           position: relative;
 
-          img {
+          .icon {
             position: absolute;
-            right: 3%;
-            top: 62%;
+
+            right: 2%;
+            top: 58%;
+
+            cursor: pointer;
+        
+
+            img {
+              vertical-align: middle;
+            }
           }
 
           label {
@@ -61,6 +69,11 @@
           justify-content: flex-end;
           font-size: 1.2rem;
           font-weight: 600;
+          a:link,
+          a:visited {
+            text-decoration: none;
+            color: $color-secondary;
+          }
         }
 
         button {
@@ -93,12 +106,16 @@
           text-decoration: none;
           // font-weight: 600;
           font-size: 1.3rem;
+          a:link,
+          a:visited {
+            text-decoration: none;
+            color: $color-primary;
+          }
         }
       }
     }
   }
 }
-
 //////////////////////////////////////////////////////////////////////////////////////
 // start forgot password////////////////////////////////////////////////////
 .forget-password {
@@ -112,7 +129,7 @@
     // position: relative;
     .image {
       margin-top: 2rem;
-      img{
+      img {
         height: 300px;
         object-fit: contain;
       }
@@ -177,12 +194,16 @@
           text-decoration: none;
           // font-weight: 600;
           font-size: 1.3rem;
+          a:link,
+          a:visited{
+            text-decoration: none;
+            color: $color-primary;
+          }
         }
       }
     }
   }
 }
-
 //////////////////////////////////////////////////////
 // mobile verfication/////////////////////////////////////////////////
 .mobile-verfiy {
@@ -195,7 +216,7 @@
 
     .image {
       margin-top: 2rem;
-      img{
+      img {
         height: 300px;
         object-fit: contain;
       }
@@ -208,7 +229,7 @@
 
     p {
       color: $color-night-2;
-      font-size: .9rem;
+      font-size: 0.9rem;
     }
 
     .resend {
@@ -216,7 +237,7 @@
       font-size: 1rem;
     }
 
-    .boxes {
+    .boxes{
       display: flex;
       justify-content: space-around;
       margin: 2rem 0;
@@ -244,7 +265,7 @@
       border-radius: 7px;
       font-weight: 600;
       font-size: 1.5rem;
-      margin: 2rem 0 2rem;
+      margin: 1rem 0 1rem;
       color: $color-white;
 
       &:focus {
@@ -267,10 +288,15 @@
       text-decoration: none;
       // font-weight: 600;
       font-size: 1.3rem;
+      a:link,
+      a:visited{
+        text-decoration: none;
+        color: $color-primary;
+
+      }
     }
   }
 }
-
 ///////////////////////////////////////////////////////////////////////
 // forgot password/////////////////////////////////////////////
 .create-password {
@@ -283,7 +309,7 @@
 
     .image {
       margin-top: 2rem;
-      img{
+      img {
         height: 300px;
         object-fit: contain;
       }
@@ -297,7 +323,7 @@
 
       p {
         color: $color-night-2;
-        font-size: .9rem;
+        font-size: 0.9rem;
       }
 
       .password-form {
@@ -305,11 +331,15 @@
 
         .form-group {
           position: relative;
-
-          img {
+          .icon {
             position: absolute;
-            right: 3%;
-            top: 62%;
+            right: 2%;
+            top: 58%;
+            
+            cursor: pointer;
+            img {
+              vertical-align: middle;
+            }
           }
 
           label {
@@ -326,7 +356,6 @@
             }
           }
         }
-
       }
 
       button {
@@ -346,10 +375,9 @@
     }
   }
 }
-
 /////////////////////////////////////////////////////////////
 // sign up.//////////////////////////////////
-.sing-up {
+.sign-up {
   background-color: $color-grey-light;
   padding: 1rem;
 
@@ -358,10 +386,11 @@
     padding: 2rem;
 
     // position: relative;
-    .images {
-      img{
-      height: 300px;
-      object-fit: contain;
+    .left-side{
+      img {
+        // height: 300px;
+        width: 100%;
+        object-fit: contain;
       }
       p {
         text-align: center;
@@ -377,7 +406,6 @@
 
       ul {
         list-style: none;
-
       }
 
       li {
@@ -397,7 +425,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-                height: 1.3rem;
+            height: 1.3rem;
           }
         }
 
@@ -405,13 +433,12 @@
           display: flex;
           align-items: center;
           text-decoration: none;
-          padding: 0.2rem .2rem;
+          padding: 0.2rem 0.2rem;
           background-color: $facebook-button-color;
           color: $color-white;
           border-radius: 7px;
-          // font-weight: 600;
-          span{
-            padding-right: 3rem
+          span {
+            padding-right: 3rem;
           }
         }
 
@@ -419,14 +446,13 @@
           display: flex;
           align-items: center;
           text-decoration: none;
-          padding: 0.2rem .2rem;
+          padding: 0.2rem 0.2rem;
           background-color: $google-button-color;
           color: $color-white;
           border-radius: 7px;
-          span{
-            padding-right: 3rem
+          span {
+            padding-right: 3rem;
           }
-          // font-weight: 600;
         }
       }
     }
@@ -439,18 +465,21 @@
 
       p {
         color: $color-night-2;
-        font-size: .9rem;
+        font-size: 0.9rem;
       }
 
       .sign-form {
         .form-group {
           position: relative;
-
-          img {
-            position: absolute;
-            right: 3%;
-            top: 62%;
-          }
+.icon{
+  position: absolute;
+  right: 2%;
+  top: 58%;
+  img {
+  vertical-align: middle;
+  }
+}
+          
 
           label {
             color: $color-grey-dark-10;
@@ -493,12 +522,16 @@
         .sign-link {
           display: flex;
           justify-content: center;
-          color: $color-primary;
+         
           text-decoration: none;
           // font-weight: 600;
           font-size: 1.3rem;
+          a:link,
+          a:visited{
+            text-decoration: none;
+            color: $color-primary;
+          }
         }
-
       }
     }
   }

@@ -1,20 +1,12 @@
 <template>
   <div class="product">
-    <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
-      <!-- <div class="container"> -->
-      <!-- <v-row> -->
-      <!-- <v-col cols="12" md="4"> -->
-
-      <!-- <v-skeleton-loader type="actions"></v-skeleton-loader> -->
-      <v-skeleton-loader type="image,table-heading,list-item-two-line, actions"></v-skeleton-loader>
-
-      <!-- <v-skeleton-loader
-            v-bind="attrs"
-            type="date-picker"
-      ></v-skeleton-loader>-->
-      <!-- </v-col> -->
-      <!-- </v-row> -->
-      <!-- </div> -->
+    <v-sheet
+      :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+      class="pa-3"
+    >
+      <v-skeleton-loader
+        type="image,table-heading,list-item-two-line, actions"
+      ></v-skeleton-loader>
     </v-sheet>
   </div>
 </template>
@@ -25,15 +17,6 @@ export default {
     theme: {
       default: { isDark: false },
     },
-
-    //   data: () => ({
-    //     attrs: {
-    //       class: "mb-6",
-    //       boilerplate: true,
-    //       elevation: 2,
-    //     },
-    //   }),
-    // },
   },
   data() {
     return {
@@ -86,7 +69,7 @@ export default {
   .v-skeleton-loader__text {
     &:last-child {
       max-width: 17%;
-          padding: 0.2rem;
+      padding: 0.2rem;
       border-radius: 0;
     }
   }
