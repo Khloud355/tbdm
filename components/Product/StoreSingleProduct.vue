@@ -5,7 +5,7 @@
       class="pa-3"
     >
       <v-skeleton-loader
-        type="image,table-heading,list-item-two-line, actions"
+        type="image,table-heading,table-heading,list-item-two-line, actions"
       ></v-skeleton-loader>
     </v-sheet>
   </div>
@@ -59,19 +59,35 @@ export default {
     width: 70%;
   }
 }
-.v-skeleton-loader__heading {
-  // border-radius: 10px;
-  padding: 0.3rem 0.6rem;
-  border-radius: 0 !important;
-}
+
 .v-skeleton-loader__table-heading {
   padding: 16px 16px 0px !important;
+  // position: relative;
+ 
   .v-skeleton-loader__text {
+    &:first-child{
+      visibility: hidden;
+    }
     &:last-child {
       max-width: 17%;
       padding: 0.2rem;
       border-radius: 0;
     }
   }
+  .v-skeleton-loader__heading {
+  // border-radius: 10px;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0 !important;
+}
+&:nth-of-type(3){
+// position: absolute;
+   .v-skeleton-loader__heading {
+display: none;
+  }
+   .v-skeleton-loader__text{
+    //  margin-bottom: 1rem;
+    // position: absolute;
+   }
+}
 }
 </style>

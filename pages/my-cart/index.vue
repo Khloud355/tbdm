@@ -65,34 +65,34 @@
             <h3>Summary</h3>
             <ul>
               <li>
-                <a href="">
+                <div class="summery_details">
                   <span class="text">SubTotal</span>
                   <span class="num">$1,75584</span>
-                </a>
+              </div>
               </li>
               <li>
-                <a href="">
+                <div class="summery_details">
                   <span class="text">Shipping</span>
                   <span class="num">$00.00</span>
-                </a>
+                </div>
               </li>
               <li>
-                <a href="">
+                <div class="summery_details">
                   <span class="text">Discount</span>
                   <span class="num">$10.00</span>
-                </a>
+                </div>
               </li>
               <li>
-                <a href="">
+               <div class="summery_details">
                   <span class="text">Taxes</span>
                   <span class="num">$24.00</span>
-                </a>
+               </div>
               </li>
               <li>
-                <a href="" class="end">
+                <div class="summery_details end">
                   <span class="text">Total</span>
                   <span class="number">$1,765.657</span>
-                </a>
+                </div>
               </li>
             </ul>
          <nuxt-link to="checkout" class="btn-ckeckout">Checkout</nuxt-link>    

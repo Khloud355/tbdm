@@ -379,7 +379,8 @@
 // sign up.//////////////////////////////////
 .sign-up {
   background-color: $color-grey-light;
-  padding: 1rem;
+ padding-top: 2rem;
+ padding-bottom: 3rem;
 
   .sign-page {
     background-color: $color-white;
@@ -525,7 +526,7 @@
          
           text-decoration: none;
           // font-weight: 600;
-          font-size: 1.3rem;
+          font-size: 1.1rem;
           a:link,
           a:visited{
             text-decoration: none;

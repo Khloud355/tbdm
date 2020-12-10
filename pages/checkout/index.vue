@@ -115,10 +115,10 @@
                           <div class="col-8">
                             <span>Item</span>
                           </div>
-                          <div class="col-2">
+                          <div class="col-2 text-center">
                             <span>Qty</span>
                           </div>
-                          <div class="col-2">
+                          <div class="col-2 text-center">
                             <span>Price</span>
                           </div>
                         </div>
@@ -132,10 +132,10 @@
                           <div class="col-8">
                             <span class="type"> Green T-shirt </span>
                           </div>
-                          <div class="col-2">
+                          <div class="col-2 text-center">
                             <span class="num">2</span>
                           </div>
-                          <div class="col-2">
+                          <div class="col-2 text-center">
                             <span class="price">£15</span>
                           </div>
                         </div>
