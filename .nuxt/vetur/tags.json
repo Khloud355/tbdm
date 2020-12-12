@@ -1,16 +1,4 @@
 {
-  "RestaurantMainCategories": {
-    "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
-  },
-  "LazyRestaurantMainCategories": {
-    "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
-  },
-  "StoreMainCategories": {
-    "description": "Auto imported from components/Categories/StoreMainCategories.vue"
-  },
-  "LazyStoreMainCategories": {
-    "description": "Auto imported from components/Categories/StoreMainCategories.vue"
-  },
   "Footer": {
     "description": "Auto imported from components/Navigation/Footer.vue"
   },
@@ -28,6 +16,18 @@
   },
   "LazyNavbar": {
     "description": "Auto imported from components/Navigation/Navbar.vue"
+  },
+  "RestaurantMainCategories": {
+    "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
+  },
+  "LazyRestaurantMainCategories": {
+    "description": "Auto imported from components/Categories/RestaurantMainCategories.vue"
+  },
+  "StoreMainCategories": {
+    "description": "Auto imported from components/Categories/StoreMainCategories.vue"
+  },
+  "LazyStoreMainCategories": {
+    "description": "Auto imported from components/Categories/StoreMainCategories.vue"
   },
   "StoreSingleOffer": {
     "description": "Auto imported from components/Product/StoreSingleOffer.vue"

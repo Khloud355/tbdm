@@ -231,8 +231,8 @@
     "submit": "تأكيد",
 
     "select_appointment": "حدد تاريخ الموعد",
-    "select_date": "Select Date",
-    "plumber": "Plumber"
+    "select_date": "اختار الموعد",
+    "plumber": "سباك"
 },
 "user_profile": {
     "my_profile": "الملف الشخصي",

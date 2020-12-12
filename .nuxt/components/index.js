@@ -1,8 +1,8 @@
-export { default as RestaurantMainCategories } from '../..\\components\\Categories\\RestaurantMainCategories.vue'
-export { default as StoreMainCategories } from '../..\\components\\Categories\\StoreMainCategories.vue'
 export { default as Footer } from '../..\\components\\Navigation\\Footer.vue'
 export { default as Header } from '../..\\components\\Navigation\\Header.vue'
 export { default as Navbar } from '../..\\components\\Navigation\\Navbar.vue'
+export { default as RestaurantMainCategories } from '../..\\components\\Categories\\RestaurantMainCategories.vue'
+export { default as StoreMainCategories } from '../..\\components\\Categories\\StoreMainCategories.vue'
 export { default as StoreSingleOffer } from '../..\\components\\Product\\StoreSingleOffer.vue'
 export { default as StoreSingleProduct } from '../..\\components\\Product\\StoreSingleProduct.vue'
 export { default as StoreSliderOffer } from '../..\\components\\Product\\StoreSliderOffer.vue'
@@ -14,11 +14,11 @@ export { default as SliderVendor } from '../..\\components\\Vendor\\SliderVendor
 export { default as StoreSliderVendor } from '../..\\components\\Vendor\\StoreSliderVendor.vue'
 export { default as StoreVendor } from '../..\\components\\Vendor\\StoreVendor.vue'
 
-export const LazyRestaurantMainCategories = import('../..\\components\\Categories\\RestaurantMainCategories.vue' /* webpackChunkName: "components_Categories/RestaurantMainCategories" */).then(c => c.default || c)
-export const LazyStoreMainCategories = import('../..\\components\\Categories\\StoreMainCategories.vue' /* webpackChunkName: "components_Categories/StoreMainCategories" */).then(c => c.default || c)
 export const LazyFooter = import('../..\\components\\Navigation\\Footer.vue' /* webpackChunkName: "components_Navigation/Footer" */).then(c => c.default || c)
 export const LazyHeader = import('../..\\components\\Navigation\\Header.vue' /* webpackChunkName: "components_Navigation/Header" */).then(c => c.default || c)
 export const LazyNavbar = import('../..\\components\\Navigation\\Navbar.vue' /* webpackChunkName: "components_Navigation/Navbar" */).then(c => c.default || c)
+export const LazyRestaurantMainCategories = import('../..\\components\\Categories\\RestaurantMainCategories.vue' /* webpackChunkName: "components_Categories/RestaurantMainCategories" */).then(c => c.default || c)
+export const LazyStoreMainCategories = import('../..\\components\\Categories\\StoreMainCategories.vue' /* webpackChunkName: "components_Categories/StoreMainCategories" */).then(c => c.default || c)
 export const LazyStoreSingleOffer = import('../..\\components\\Product\\StoreSingleOffer.vue' /* webpackChunkName: "components_Product/StoreSingleOffer" */).then(c => c.default || c)
 export const LazyStoreSingleProduct = import('../..\\components\\Product\\StoreSingleProduct.vue' /* webpackChunkName: "components_Product/StoreSingleProduct" */).then(c => c.default || c)
 export const LazyStoreSliderOffer = import('../..\\components\\Product\\StoreSliderOffer.vue' /* webpackChunkName: "components_Product/StoreSliderOffer" */).then(c => c.default || c)
