@@ -3,37 +3,37 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _5d8c8846 = () => interopDefault(import('..\\pages\\checkout\\index.vue' /* webpackChunkName: "pages/checkout/index" */))
-const _17f879f6 = () => interopDefault(import('..\\pages\\create-password\\index.vue' /* webpackChunkName: "pages/create-password/index" */))
-const _5d45bd14 = () => interopDefault(import('..\\pages\\forget-password\\index.vue' /* webpackChunkName: "pages/forget-password/index" */))
-const _7730e6f0 = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
-const _21d7f6d4 = () => interopDefault(import('..\\pages\\mobile-verfication\\index.vue' /* webpackChunkName: "pages/mobile-verfication/index" */))
-const _6e95fee0 = () => interopDefault(import('..\\pages\\my-cart\\index.vue' /* webpackChunkName: "pages/my-cart/index" */))
-const _d2cd5fee = () => interopDefault(import('..\\pages\\partner\\index.vue' /* webpackChunkName: "pages/partner/index" */))
-const _0ac0cc76 = () => interopDefault(import('..\\pages\\services\\index.vue' /* webpackChunkName: "pages/services/index" */))
-const _1cb1cc46 = () => interopDefault(import('..\\pages\\sign-up\\index.vue' /* webpackChunkName: "pages/sign-up/index" */))
-const _70aab676 = () => interopDefault(import('..\\pages\\skeleton\\index.vue' /* webpackChunkName: "pages/skeleton/index" */))
-const _65bf332c = () => interopDefault(import('..\\pages\\timer\\index.vue' /* webpackChunkName: "pages/timer/index" */))
-const _7cbd897f = () => interopDefault(import('..\\pages\\vendor-profile\\index.vue' /* webpackChunkName: "pages/vendor-profile/index" */))
-const _90780fc8 = () => interopDefault(import('..\\pages\\News\\single-topic.vue' /* webpackChunkName: "pages/News/single-topic" */))
-const _276d9f54 = () => interopDefault(import('..\\pages\\News\\topics.vue' /* webpackChunkName: "pages/News/topics" */))
-const _93de09ec = () => interopDefault(import('..\\pages\\partner\\doctor\\index.vue' /* webpackChunkName: "pages/partner/doctor/index" */))
-const _2eef373e = () => interopDefault(import('..\\pages\\partner\\driver\\index.vue' /* webpackChunkName: "pages/partner/driver/index" */))
-const _527679fe = () => interopDefault(import('..\\pages\\partner\\merchant\\index.vue' /* webpackChunkName: "pages/partner/merchant/index" */))
-const _46e9a78d = () => interopDefault(import('..\\pages\\partner\\profession\\index.vue' /* webpackChunkName: "pages/partner/profession/index" */))
-const _6394a0c2 = () => interopDefault(import('..\\pages\\partner\\realestate-developer\\index.vue' /* webpackChunkName: "pages/partner/realestate-developer/index" */))
-const _f4b1864e = () => interopDefault(import('..\\pages\\services\\restaurants\\index.vue' /* webpackChunkName: "pages/services/restaurants/index" */))
-const _5bc7abc6 = () => interopDefault(import('..\\pages\\vendor-profile\\my-auction\\index.vue' /* webpackChunkName: "pages/vendor-profile/my-auction/index" */))
-const _4cde560c = () => interopDefault(import('..\\pages\\vendor-profile\\orders\\index.vue' /* webpackChunkName: "pages/vendor-profile/orders/index" */))
-const _0ea52ea9 = () => interopDefault(import('..\\pages\\vendor-profile\\reservation\\index.vue' /* webpackChunkName: "pages/vendor-profile/reservation/index" */))
-const _2e8fa8f5 = () => interopDefault(import('..\\pages\\vendor-profile\\subscribe-auction\\index.vue' /* webpackChunkName: "pages/vendor-profile/subscribe-auction/index" */))
-const _4104764c = () => interopDefault(import('..\\pages\\vendor-profile\\wishlist\\index.vue' /* webpackChunkName: "pages/vendor-profile/wishlist/index" */))
-const _0d922892 = () => interopDefault(import('..\\pages\\vendor-profile\\orders\\order-details\\index.vue' /* webpackChunkName: "pages/vendor-profile/orders/order-details/index" */))
-const _384e1a68 = () => interopDefault(import('..\\pages\\services\\store\\vendor\\_vendorId\\index.vue' /* webpackChunkName: "pages/services/store/vendor/_vendorId/index" */))
-const _80459e5e = () => interopDefault(import('..\\pages\\services\\store\\product\\_productId\\_productName\\index.vue' /* webpackChunkName: "pages/services/store/product/_productId/_productName/index" */))
-const _19900f89 = () => interopDefault(import('..\\pages\\services\\restaurants\\_restaurantId\\_restaurantName\\index.vue' /* webpackChunkName: "pages/services/restaurants/_restaurantId/_restaurantName/index" */))
-const _4e4a1844 = () => interopDefault(import('..\\pages\\services\\store\\_subCatId\\_id\\index.vue' /* webpackChunkName: "pages/services/store/_subCatId/_id/index" */))
-const _31737fa3 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _4156f0f4 = () => interopDefault(import('..\\pages\\checkout\\index.vue' /* webpackChunkName: "pages/checkout/index" */))
+const _e66813e4 = () => interopDefault(import('..\\pages\\create-password\\index.vue' /* webpackChunkName: "pages/create-password/index" */))
+const _6a25547f = () => interopDefault(import('..\\pages\\forget-password\\index.vue' /* webpackChunkName: "pages/forget-password/index" */))
+const _114d725e = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
+const _587f08ed = () => interopDefault(import('..\\pages\\mobile-verfication\\index.vue' /* webpackChunkName: "pages/mobile-verfication/index" */))
+const _06214c99 = () => interopDefault(import('..\\pages\\my-cart\\index.vue' /* webpackChunkName: "pages/my-cart/index" */))
+const _57f4c7dc = () => interopDefault(import('..\\pages\\partner\\index.vue' /* webpackChunkName: "pages/partner/index" */))
+const _6abccedc = () => interopDefault(import('..\\pages\\services\\index.vue' /* webpackChunkName: "pages/services/index" */))
+const _5a1e184f = () => interopDefault(import('..\\pages\\sign-up\\index.vue' /* webpackChunkName: "pages/sign-up/index" */))
+const _3e7028e6 = () => interopDefault(import('..\\pages\\skeleton\\index.vue' /* webpackChunkName: "pages/skeleton/index" */))
+const _ce9e2516 = () => interopDefault(import('..\\pages\\timer\\index.vue' /* webpackChunkName: "pages/timer/index" */))
+const _0e0e5156 = () => interopDefault(import('..\\pages\\vendor-profile\\index.vue' /* webpackChunkName: "pages/vendor-profile/index" */))
+const _e2add0b6 = () => interopDefault(import('..\\pages\\News\\single-topic.vue' /* webpackChunkName: "pages/News/single-topic" */))
+const _1f3aea9f = () => interopDefault(import('..\\pages\\News\\topics.vue' /* webpackChunkName: "pages/News/topics" */))
+const _4ed92e13 = () => interopDefault(import('..\\pages\\partner\\doctor\\index.vue' /* webpackChunkName: "pages/partner/doctor/index" */))
+const _fd5ed12c = () => interopDefault(import('..\\pages\\partner\\driver\\index.vue' /* webpackChunkName: "pages/partner/driver/index" */))
+const _5e4c57ca = () => interopDefault(import('..\\pages\\partner\\merchant\\index.vue' /* webpackChunkName: "pages/partner/merchant/index" */))
+const _0adf2e16 = () => interopDefault(import('..\\pages\\partner\\profession\\index.vue' /* webpackChunkName: "pages/partner/profession/index" */))
+const _45835fea = () => interopDefault(import('..\\pages\\partner\\realestate-developer\\index.vue' /* webpackChunkName: "pages/partner/realestate-developer/index" */))
+const _22554522 = () => interopDefault(import('..\\pages\\services\\restaurants\\index.vue' /* webpackChunkName: "pages/services/restaurants/index" */))
+const _1584e774 = () => interopDefault(import('..\\pages\\vendor-profile\\my-auction\\index.vue' /* webpackChunkName: "pages/vendor-profile/my-auction/index" */))
+const _5ab8545e = () => interopDefault(import('..\\pages\\vendor-profile\\orders\\index.vue' /* webpackChunkName: "pages/vendor-profile/orders/index" */))
+const _38541c32 = () => interopDefault(import('..\\pages\\vendor-profile\\reservation\\index.vue' /* webpackChunkName: "pages/vendor-profile/reservation/index" */))
+const _51ce8bbe = () => interopDefault(import('..\\pages\\vendor-profile\\subscribe-auction\\index.vue' /* webpackChunkName: "pages/vendor-profile/subscribe-auction/index" */))
+const _4058281e = () => interopDefault(import('..\\pages\\vendor-profile\\wishlist\\index.vue' /* webpackChunkName: "pages/vendor-profile/wishlist/index" */))
+const _6d757c00 = () => interopDefault(import('..\\pages\\vendor-profile\\orders\\order-details\\index.vue' /* webpackChunkName: "pages/vendor-profile/orders/order-details/index" */))
+const _28766923 = () => interopDefault(import('..\\pages\\services\\store\\vendor\\_vendorId\\index.vue' /* webpackChunkName: "pages/services/store/vendor/_vendorId/index" */))
+const _3eedcdb0 = () => interopDefault(import('..\\pages\\services\\store\\product\\_productId\\_productName\\index.vue' /* webpackChunkName: "pages/services/store/product/_productId/_productName/index" */))
+const _1ea2b3d2 = () => interopDefault(import('..\\pages\\services\\restaurants\\_restaurantId\\_restaurantName\\index.vue' /* webpackChunkName: "pages/services/restaurants/_restaurantId/_restaurantName/index" */))
+const _0445194d = () => interopDefault(import('..\\pages\\services\\store\\_subCatId\\_id\\index.vue' /* webpackChunkName: "pages/services/store/_subCatId/_id/index" */))
+const _c136550c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -53,127 +53,127 @@ export const routerOptions = {
 
   routes: [{
     path: "/checkout",
-    component: _5d8c8846,
+    component: _4156f0f4,
     name: "checkout"
   }, {
     path: "/create-password",
-    component: _17f879f6,
+    component: _e66813e4,
     name: "create-password"
   }, {
     path: "/forget-password",
-    component: _5d45bd14,
+    component: _6a25547f,
     name: "forget-password"
   }, {
     path: "/login",
-    component: _7730e6f0,
+    component: _114d725e,
     name: "login"
   }, {
     path: "/mobile-verfication",
-    component: _21d7f6d4,
+    component: _587f08ed,
     name: "mobile-verfication"
   }, {
     path: "/my-cart",
-    component: _6e95fee0,
+    component: _06214c99,
     name: "my-cart"
   }, {
     path: "/partner",
-    component: _d2cd5fee,
+    component: _57f4c7dc,
     name: "partner"
   }, {
     path: "/services",
-    component: _0ac0cc76,
+    component: _6abccedc,
     name: "services"
   }, {
     path: "/sign-up",
-    component: _1cb1cc46,
+    component: _5a1e184f,
     name: "sign-up"
   }, {
     path: "/skeleton",
-    component: _70aab676,
+    component: _3e7028e6,
     name: "skeleton"
   }, {
     path: "/timer",
-    component: _65bf332c,
+    component: _ce9e2516,
     name: "timer"
   }, {
     path: "/vendor-profile",
-    component: _7cbd897f,
+    component: _0e0e5156,
     name: "vendor-profile"
   }, {
     path: "/News/single-topic",
-    component: _90780fc8,
+    component: _e2add0b6,
     name: "News-single-topic"
   }, {
     path: "/News/topics",
-    component: _276d9f54,
+    component: _1f3aea9f,
     name: "News-topics"
   }, {
     path: "/partner/doctor",
-    component: _93de09ec,
+    component: _4ed92e13,
     name: "partner-doctor"
   }, {
     path: "/partner/driver",
-    component: _2eef373e,
+    component: _fd5ed12c,
     name: "partner-driver"
   }, {
     path: "/partner/merchant",
-    component: _527679fe,
+    component: _5e4c57ca,
     name: "partner-merchant"
   }, {
     path: "/partner/profession",
-    component: _46e9a78d,
+    component: _0adf2e16,
     name: "partner-profession"
   }, {
     path: "/partner/realestate-developer",
-    component: _6394a0c2,
+    component: _45835fea,
     name: "partner-realestate-developer"
   }, {
     path: "/services/restaurants",
-    component: _f4b1864e,
+    component: _22554522,
     name: "services-restaurants"
   }, {
     path: "/vendor-profile/my-auction",
-    component: _5bc7abc6,
+    component: _1584e774,
     name: "vendor-profile-my-auction"
   }, {
     path: "/vendor-profile/orders",
-    component: _4cde560c,
+    component: _5ab8545e,
     name: "vendor-profile-orders"
   }, {
     path: "/vendor-profile/reservation",
-    component: _0ea52ea9,
+    component: _38541c32,
     name: "vendor-profile-reservation"
   }, {
     path: "/vendor-profile/subscribe-auction",
-    component: _2e8fa8f5,
+    component: _51ce8bbe,
     name: "vendor-profile-subscribe-auction"
   }, {
     path: "/vendor-profile/wishlist",
-    component: _4104764c,
+    component: _4058281e,
     name: "vendor-profile-wishlist"
   }, {
     path: "/vendor-profile/orders/order-details",
-    component: _0d922892,
+    component: _6d757c00,
     name: "vendor-profile-orders-order-details"
   }, {
     path: "/services/store/vendor/:vendorId",
-    component: _384e1a68,
+    component: _28766923,
     name: "services-store-vendor-vendorId"
   }, {
     path: "/services/store/product/:productId?/:productName",
-    component: _80459e5e,
+    component: _3eedcdb0,
     name: "services-store-product-productId-productName"
   }, {
     path: "/services/restaurants/:restaurantId/:restaurantName",
-    component: _19900f89,
+    component: _1ea2b3d2,
     name: "services-restaurants-restaurantId-restaurantName"
   }, {
     path: "/services/store/:subCatId?/:id",
-    component: _4e4a1844,
+    component: _0445194d,
     name: "services-store-subCatId-id"
   }, {
     path: "/",
-    component: _31737fa3,
+    component: _c136550c,
     name: "index"
   }],
 

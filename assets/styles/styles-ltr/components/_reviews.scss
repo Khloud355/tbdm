@@ -4,13 +4,24 @@
         font-size: 1.3rem;
         font-weight: 600;
         letter-spacing: 1px;
+        width: 50%;
     }
             
     h6 {
         margin-bottom: 0;
         font-weight: 600;
     }
+.two-line{
+    .v-skeleton-loader__text{
+        width: 40%;
+        &:last-child{
+            width: 35%;
+            height: .5rem;
+            // margin-top: 1rem;
+        }
+    }
 
+}
     .add-review {
 
         .row {
@@ -56,11 +67,16 @@
                     font-size: .9rem;
                     font-weight: 100;
                     margin-bottom: 1.5rem;
+                    .three-item{
+                        .v-skeleton-loader__text {
+                        width: 100%;
+                    }}
                 }
 
                 .icons {
                     display: flex;
                     align-items: center;
+
 
                     .icon {
                         display: flex;
@@ -78,7 +94,17 @@
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            margin-right: .5rem;
+                            margin-right: 2.5rem;
+                            
+                            .v-skeleton-loader__card-heading
+                            {
+                                 .v-skeleton-loader__heading{
+                                     width: 2rem;
+                                     height: 2rem;
+                                     border-radius: 50%;
+
+                                 }}
+                            
 
                             img {
                                 height: 1.1rem;
@@ -89,11 +115,12 @@
                             font-weight: 100;
                             font-size: .9rem;
                         }
-                    }
+                    
 
                     .icon:nth-of-type(2) {
                         margin-left: 3rem;
                     }
+                }
                 }
             }
 
@@ -110,8 +137,8 @@
                 text-decoration: underline;
                 color: $color-primary;
                 font-weight: 600;
+                // width: 50%;
             }
         }
-
     }
 }

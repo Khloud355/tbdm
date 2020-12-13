@@ -2,218 +2,187 @@
   {
     "name": "checkout",
     "path": "/checkout",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\checkout\\\\index.vue",
-    "chunkName": "pages/checkout/index",
-    "_name": "_5d8c8846"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\checkout\\\\index.vue",
+    "chunkName": "pages/checkout/index"
   },
   {
     "name": "create-password",
     "path": "/create-password",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\create-password\\\\index.vue",
-    "chunkName": "pages/create-password/index",
-    "_name": "_17f879f6"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\create-password\\\\index.vue",
+    "chunkName": "pages/create-password/index"
   },
   {
     "name": "forget-password",
     "path": "/forget-password",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\forget-password\\\\index.vue",
-    "chunkName": "pages/forget-password/index",
-    "_name": "_5d45bd14"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\forget-password\\\\index.vue",
+    "chunkName": "pages/forget-password/index"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\login\\\\index.vue",
-    "chunkName": "pages/login/index",
-    "_name": "_7730e6f0"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\login\\\\index.vue",
+    "chunkName": "pages/login/index"
   },
   {
     "name": "mobile-verfication",
     "path": "/mobile-verfication",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\mobile-verfication\\\\index.vue",
-    "chunkName": "pages/mobile-verfication/index",
-    "_name": "_21d7f6d4"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\mobile-verfication\\\\index.vue",
+    "chunkName": "pages/mobile-verfication/index"
   },
   {
     "name": "my-cart",
     "path": "/my-cart",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\my-cart\\\\index.vue",
-    "chunkName": "pages/my-cart/index",
-    "_name": "_6e95fee0"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\my-cart\\\\index.vue",
+    "chunkName": "pages/my-cart/index"
   },
   {
     "name": "partner",
     "path": "/partner",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\index.vue",
-    "chunkName": "pages/partner/index",
-    "_name": "_d2cd5fee"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\index.vue",
+    "chunkName": "pages/partner/index"
   },
   {
     "name": "services",
     "path": "/services",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\index.vue",
-    "chunkName": "pages/services/index",
-    "_name": "_0ac0cc76"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\index.vue",
+    "chunkName": "pages/services/index"
   },
   {
     "name": "sign-up",
     "path": "/sign-up",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\sign-up\\\\index.vue",
-    "chunkName": "pages/sign-up/index",
-    "_name": "_1cb1cc46"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\sign-up\\\\index.vue",
+    "chunkName": "pages/sign-up/index"
   },
   {
     "name": "skeleton",
     "path": "/skeleton",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\skeleton\\\\index.vue",
-    "chunkName": "pages/skeleton/index",
-    "_name": "_70aab676"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\skeleton\\\\index.vue",
+    "chunkName": "pages/skeleton/index"
   },
   {
     "name": "timer",
     "path": "/timer",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\timer\\\\index.vue",
-    "chunkName": "pages/timer/index",
-    "_name": "_65bf332c"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\timer\\\\index.vue",
+    "chunkName": "pages/timer/index"
   },
   {
     "name": "vendor-profile",
     "path": "/vendor-profile",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\index.vue",
-    "chunkName": "pages/vendor-profile/index",
-    "_name": "_7cbd897f"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\index.vue",
+    "chunkName": "pages/vendor-profile/index"
   },
   {
     "name": "News-single-topic",
     "path": "/News/single-topic",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\News\\\\single-topic.vue",
-    "chunkName": "pages/News/single-topic",
-    "_name": "_90780fc8"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\News\\\\single-topic.vue",
+    "chunkName": "pages/News/single-topic"
   },
   {
     "name": "News-topics",
     "path": "/News/topics",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\News\\\\topics.vue",
-    "chunkName": "pages/News/topics",
-    "_name": "_276d9f54"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\News\\\\topics.vue",
+    "chunkName": "pages/News/topics"
   },
   {
     "name": "partner-doctor",
     "path": "/partner/doctor",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\doctor\\\\index.vue",
-    "chunkName": "pages/partner/doctor/index",
-    "_name": "_93de09ec"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\doctor\\\\index.vue",
+    "chunkName": "pages/partner/doctor/index"
   },
   {
     "name": "partner-driver",
     "path": "/partner/driver",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\driver\\\\index.vue",
-    "chunkName": "pages/partner/driver/index",
-    "_name": "_2eef373e"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\driver\\\\index.vue",
+    "chunkName": "pages/partner/driver/index"
   },
   {
     "name": "partner-merchant",
     "path": "/partner/merchant",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\merchant\\\\index.vue",
-    "chunkName": "pages/partner/merchant/index",
-    "_name": "_527679fe"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\merchant\\\\index.vue",
+    "chunkName": "pages/partner/merchant/index"
   },
   {
     "name": "partner-profession",
     "path": "/partner/profession",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\profession\\\\index.vue",
-    "chunkName": "pages/partner/profession/index",
-    "_name": "_46e9a78d"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\profession\\\\index.vue",
+    "chunkName": "pages/partner/profession/index"
   },
   {
     "name": "partner-realestate-developer",
     "path": "/partner/realestate-developer",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\partner\\\\realestate-developer\\\\index.vue",
-    "chunkName": "pages/partner/realestate-developer/index",
-    "_name": "_6394a0c2"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\partner\\\\realestate-developer\\\\index.vue",
+    "chunkName": "pages/partner/realestate-developer/index"
   },
   {
     "name": "services-restaurants",
     "path": "/services/restaurants",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\restaurants\\\\index.vue",
-    "chunkName": "pages/services/restaurants/index",
-    "_name": "_f4b1864e"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\restaurants\\\\index.vue",
+    "chunkName": "pages/services/restaurants/index"
   },
   {
     "name": "vendor-profile-my-auction",
     "path": "/vendor-profile/my-auction",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\my-auction\\\\index.vue",
-    "chunkName": "pages/vendor-profile/my-auction/index",
-    "_name": "_5bc7abc6"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\my-auction\\\\index.vue",
+    "chunkName": "pages/vendor-profile/my-auction/index"
   },
   {
     "name": "vendor-profile-orders",
     "path": "/vendor-profile/orders",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\orders\\\\index.vue",
-    "chunkName": "pages/vendor-profile/orders/index",
-    "_name": "_4cde560c"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\orders\\\\index.vue",
+    "chunkName": "pages/vendor-profile/orders/index"
   },
   {
     "name": "vendor-profile-reservation",
     "path": "/vendor-profile/reservation",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\reservation\\\\index.vue",
-    "chunkName": "pages/vendor-profile/reservation/index",
-    "_name": "_0ea52ea9"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\reservation\\\\index.vue",
+    "chunkName": "pages/vendor-profile/reservation/index"
   },
   {
     "name": "vendor-profile-subscribe-auction",
     "path": "/vendor-profile/subscribe-auction",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\subscribe-auction\\\\index.vue",
-    "chunkName": "pages/vendor-profile/subscribe-auction/index",
-    "_name": "_2e8fa8f5"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\subscribe-auction\\\\index.vue",
+    "chunkName": "pages/vendor-profile/subscribe-auction/index"
   },
   {
     "name": "vendor-profile-wishlist",
     "path": "/vendor-profile/wishlist",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\wishlist\\\\index.vue",
-    "chunkName": "pages/vendor-profile/wishlist/index",
-    "_name": "_4104764c"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\wishlist\\\\index.vue",
+    "chunkName": "pages/vendor-profile/wishlist/index"
   },
   {
     "name": "vendor-profile-orders-order-details",
     "path": "/vendor-profile/orders/order-details",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\vendor-profile\\\\orders\\\\order-details\\\\index.vue",
-    "chunkName": "pages/vendor-profile/orders/order-details/index",
-    "_name": "_0d922892"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\vendor-profile\\\\orders\\\\order-details\\\\index.vue",
+    "chunkName": "pages/vendor-profile/orders/order-details/index"
   },
   {
     "name": "services-store-vendor-vendorId",
     "path": "/services/store/vendor/:vendorId",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\store\\\\vendor\\\\_vendorId\\\\index.vue",
-    "chunkName": "pages/services/store/vendor/_vendorId/index",
-    "_name": "_384e1a68"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\store\\\\vendor\\\\_vendorId\\\\index.vue",
+    "chunkName": "pages/services/store/vendor/_vendorId/index"
   },
   {
     "name": "services-store-product-productId-productName",
     "path": "/services/store/product/:productId?/:productName",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\store\\\\product\\\\_productId\\\\_productName\\\\index.vue",
-    "chunkName": "pages/services/store/product/_productId/_productName/index",
-    "_name": "_80459e5e"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\store\\\\product\\\\_productId\\\\_productName\\\\index.vue",
+    "chunkName": "pages/services/store/product/_productId/_productName/index"
   },
   {
     "name": "services-restaurants-restaurantId-restaurantName",
     "path": "/services/restaurants/:restaurantId/:restaurantName",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\restaurants\\\\_restaurantId\\\\_restaurantName\\\\index.vue",
-    "chunkName": "pages/services/restaurants/_restaurantId/_restaurantName/index",
-    "_name": "_19900f89"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\restaurants\\\\_restaurantId\\\\_restaurantName\\\\index.vue",
+    "chunkName": "pages/services/restaurants/_restaurantId/_restaurantName/index"
   },
   {
     "name": "services-store-subCatId-id",
     "path": "/services/store/:subCatId?/:id",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\services\\\\store\\\\_subCatId\\\\_id\\\\index.vue",
-    "chunkName": "pages/services/store/_subCatId/_id/index",
-    "_name": "_4e4a1844"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\services\\\\store\\\\_subCatId\\\\_id\\\\index.vue",
+    "chunkName": "pages/services/store/_subCatId/_id/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_31737fa3"
+    "component": "E:\\\\Tbdmm-test\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

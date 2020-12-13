@@ -3,38 +3,28 @@
     <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
+          <li class="breadcrumb-item">
+            <nuxt-link to="/">Home</nuxt-link>
+          </li>
           <li class="breadcrumb-item">
             <nuxt-link to="/">Services</nuxt-link>
           </li>
-          <li class="breadcrumb-item"><nuxt-link to="/">Store</nuxt-link></li>
-          <li class="breadcrumb-item active" aria-current="page">
-            Vendor Profile
+          <li class="breadcrumb-item">
+            <nuxt-link to="/">Store</nuxt-link>
           </li>
+          <li class="breadcrumb-item active" aria-current="page">Vendor Profile</li>
         </ol>
       </nav>
 
       <div class="vendor-info">
         <div class="cover">
           <!-- <img class="cover-img" src="/images/market.jpg" alt=""> -->
-          <v-sheet
-            :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-            class="pa-3"
-          >
-            <v-skeleton-loader
-              class="cover-img"
-              type="image"
-            ></v-skeleton-loader>
+          <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+            <v-skeleton-loader class="cover-img" type="image"></v-skeleton-loader>
           </v-sheet>
           <!-- <img src="/images/person.jpeg" alt="" class="personal-img"> -->
-          <v-sheet
-            :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-            class="pa-3"
-          >
-            <v-skeleton-loader
-              class="personal-img"
-              type="image"
-            ></v-skeleton-loader>
+          <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+            <v-skeleton-loader class="personal-img" type="image"></v-skeleton-loader>
           </v-sheet>
         </div>
 
@@ -43,14 +33,8 @@
             <div class="info">
               <div class="head">
                 <h4>
-                  <v-sheet
-                    :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-                    class="pa-3"
-                  >
-                    <v-skeleton-loader
-                      class="card-head"
-                      type="card-heading"
-                    ></v-skeleton-loader>
+                  <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                    <v-skeleton-loader type="card-heading"></v-skeleton-loader>
                   </v-sheet>
                 </h4>
                 <!-- <div class="rate-box">
@@ -60,17 +44,11 @@
                   >
                     <v-skeleton-loader type="actions"></v-skeleton-loader>
                   </v-sheet>
-                </div> -->
+                </div>-->
               </div>
               <p>
-                <v-sheet
-                  :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-                  class="pa-3"
-                >
-                  <v-skeleton-loader
-                    class="multi-line"
-                    type="list-item-three-line"
-                  ></v-skeleton-loader>
+                <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                  <v-skeleton-loader class="multi-line" type="list-item-three-line"></v-skeleton-loader>
                 </v-sheet>
               </p>
             </div>
@@ -79,14 +57,8 @@
             <div class="contacts">
               <div class="row no-gutters">
                 <div class="col-1">
-                  <v-sheet
-                    :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-                    class="pa-3"
-                  >
-                    <v-skeleton-loader
-                      class="card-head"
-                      type="card-heading"
-                    ></v-skeleton-loader>
+                  <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                    <v-skeleton-loader class="card-head" type="card-heading"></v-skeleton-loader>
                   </v-sheet>
                 </div>
                 <div class="col-1"></div>
@@ -96,10 +68,7 @@
                       :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
                       class="pa-3"
                     >
-                      <v-skeleton-loader
-                        class="card-head"
-                        type="card-heading"
-                      ></v-skeleton-loader>
+                      <v-skeleton-loader class="card-head" type="card-heading"></v-skeleton-loader>
                     </v-sheet>
                   </p>
                 </div>
@@ -107,14 +76,8 @@
               <div class="row no-gutters">
                 <div class="col-1">
                   <!-- <img class="mail" src="/images/icons/svg/mail.svg" alt="" /> -->
-                  <v-sheet
-                    :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-                    class="pa-3"
-                  >
-                    <v-skeleton-loader
-                      class="card-head"
-                      type="card-heading"
-                    ></v-skeleton-loader>
+                  <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                    <v-skeleton-loader class="card-head" type="card-heading"></v-skeleton-loader>
                   </v-sheet>
                 </div>
                 <div class="col-1"></div>
@@ -124,10 +87,7 @@
                       :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
                       class="pa-3"
                     >
-                      <v-skeleton-loader
-                        class="card-head"
-                        type="card-heading"
-                      ></v-skeleton-loader>
+                      <v-skeleton-loader class="card-head" type="card-heading"></v-skeleton-loader>
                     </v-sheet>
                   </p>
                 </div>
@@ -135,15 +95,9 @@
               <div class="row no-gutters">
                 <div class="col-1">
                   <!-- <img src="/images/icons/svg/location.svg" alt="" />
-                   -->
-                  <v-sheet
-                    :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-                    class="pa-3"
-                  >
-                    <v-skeleton-loader
-                      class="card-head"
-                      type="card-heading"
-                    ></v-skeleton-loader>
+                  -->
+                  <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                    <v-skeleton-loader class="card-head" type="card-heading"></v-skeleton-loader>
                   </v-sheet>
                 </div>
                 <div class="col-1"></div>
@@ -153,10 +107,7 @@
                       :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
                       class="pa-3"
                     >
-                      <v-skeleton-loader
-                        class="card-head"
-                        type="card-heading"
-                      ></v-skeleton-loader>
+                      <v-skeleton-loader class="card-head" type="card-heading"></v-skeleton-loader>
                     </v-sheet>
                   </p>
                 </div>
@@ -190,14 +141,16 @@
             align="center"
             use-router
           >
-            <template #prev-text
-              ><span
-                ><img src="/images/icons/svg/chevron-left.svg" alt="" /></span
-            ></template>
-            <template #next-text
-              ><span
-                ><img src="/images/icons/svg/chevron-right.svg" alt="" /></span
-            ></template>
+            <template #prev-text>
+              <span>
+                <img src="/images/icons/svg/chevron-left.svg" alt />
+              </span>
+            </template>
+            <template #next-text>
+              <span>
+                <img src="/images/icons/svg/chevron-right.svg" alt />
+              </span>
+            </template>
           </b-pagination-nav>
         </div>
       </div>
@@ -226,8 +179,7 @@
                   :show-rating="false"
                   :star-size="20"
                   :padding="0.9"
-                >
-                </star-rating>
+                ></star-rating>
               </client-only>
             </div>
           </div>
@@ -241,22 +193,16 @@
         <hr />
         <div class="prev-reviews">
           <h4>
-            <v-sheet
-              :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-              class="pa-3"
-            >
+            <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
               <v-skeleton-loader type="card-heading"></v-skeleton-loader>
             </v-sheet>
           </h4>
           <div class="row no-gutters review">
             <div class="col-3">
               <client-only>
-                    <v-sheet
-              :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-              class="pa-3"
-            >
-              <v-skeleton-loader type="card-heading"></v-skeleton-loader>
-            </v-sheet>
+                <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                  <v-skeleton-loader type="card-heading"></v-skeleton-loader>
+                </v-sheet>
                 <!-- <star-rating
                   :rating="3.5"
                   :increment="0.5"
@@ -266,41 +212,48 @@
                   :star-size="20"
                   :padding="0.9"
                 >
-                </star-rating> -->
+                </star-rating>-->
               </client-only>
-                   <v-sheet
-              :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-              class="pa-3"
-            >
-              <v-skeleton-loader type="list-item-two-line"></v-skeleton-loader>
-            </v-sheet>
+              <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                <v-skeleton-loader class="two-line" type="list-item-two-line"></v-skeleton-loader>
+              </v-sheet>
             </div>
             <div class="col-9">
               <div class="comment">
                 <p>
-                   <v-sheet
-              :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-              class="pa-3"
-            >
-              <v-skeleton-loader type="list-item-three-line"></v-skeleton-loader>
-            </v-sheet>
+                  <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                    <v-skeleton-loader class="three-item" type="list-item-three-line"></v-skeleton-loader>
+                  </v-sheet>
                 </p>
                 <div class="icons">
                   <div class="icon">
                     <span class="image">
-                      <img src="/images/icons/svg/comment-heart.svg" alt="" />
+                      <!-- <img src="/images/icons/svg/comment-heart.svg" alt="" /> -->
+                      <v-sheet
+                        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+                        class="pa-3"
+                      >
+                        <v-skeleton-loader type="card-heading"></v-skeleton-loader>
+                      </v-sheet>
                     </span>
-                    <span class="count">113</span>
+                    <!-- <span class="count">113</span> -->
                   </div>
                   <div class="icon">
                     <span class="image">
-                      <img src="/images/icons/svg/icon-comment.svg" alt="" />
+                      <!-- <img src="/images/icons/svg/icon-comment.svg" alt="" />
+                      -->
+                      <v-sheet
+                        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+                        class="pa-3"
+                      >
+                        <v-skeleton-loader  type="card-heading"></v-skeleton-loader>
+                      </v-sheet>
                     </span>
-                    <span class="count">6</span>
+                    <!-- <span class="count">6</span> -->
                   </div>
                   <!-- <div class="more">
                                         <p>See more reviews</p>
-                                    </div> -->
+                  </div>-->
                 </div>
               </div>
             </div>
@@ -309,7 +262,10 @@
           <div class="row no-gutters review">
             <div class="col-3">
               <client-only>
-                <star-rating
+                <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                  <v-skeleton-loader type="card-heading"></v-skeleton-loader>
+                </v-sheet>
+                <!-- <star-rating
                   :rating="3.5"
                   :increment="0.5"
                   :read-only="true"
@@ -318,42 +274,60 @@
                   :star-size="20"
                   :padding="0.9"
                 >
-                </star-rating>
+                </star-rating>-->
               </client-only>
-              <h6>Pablo Permins</h6>
-              <span class="time">one hour ago</span>
+              <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                <v-skeleton-loader class="two-line" type="list-item-two-line"></v-skeleton-loader>
+              </v-sheet>
             </div>
             <div class="col-9">
               <div class="comment">
                 <p>
-                  Got this through the post the other day and right from opening
-                  the packet I knew this was quality, put it on and I was
-                  right!! Well done
+                  <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                    <v-skeleton-loader class="three-item" type="list-item-three-line"></v-skeleton-loader>
+                  </v-sheet>
                 </p>
                 <div class="icons">
                   <div class="icon">
                     <span class="image">
-                      <img src="/images/icons/svg/comment-heart.svg" alt="" />
+                      <!-- <img src="/images/icons/svg/comment-heart.svg" alt="" /> -->
+                      <v-sheet
+                        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+                        class="pa-3"
+                      >
+                        <v-skeleton-loader type="card-heading"></v-skeleton-loader>
+                      </v-sheet>
                     </span>
-                    <span class="count">113</span>
+                    <!-- <span class="count">113</span> -->
                   </div>
                   <div class="icon">
                     <span class="image">
-                      <img src="/images/icons/svg/icon-comment.svg" alt="" />
+                      <!-- <img src="/images/icons/svg/icon-comment.svg" alt="" />
+                      -->
+                      <v-sheet
+                        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+                        class="pa-3"
+                      >
+                        <v-skeleton-loader type="card-heading"></v-skeleton-loader>
+                      </v-sheet>
                     </span>
-                    <span class="count">6</span>
+                    <!-- <span class="count">6</span> -->
                   </div>
                   <!-- <div class="more">
                                         <p>See more reviews</p>
-                                    </div> -->
+                  </div>-->
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="more">
-            <p>See more reviews</p>
-          </div>
+          <!-- <div class="more">
+            <p>
+              <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class="pa-3">
+                <v-skeleton-loader type="card-heading"></v-skeleton-loader>
+              </v-sheet>
+            </p>
+          </div> -->
         </div>
       </div>
     </div>
