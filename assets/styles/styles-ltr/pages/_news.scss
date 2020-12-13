@@ -1,136 +1,127 @@
 .topic-card {
-    background-color: $color-grey-light;
-    padding: 2rem 0;
+  background-color: $color-grey-light;
+  padding: 2rem 0;
 
-    .cards {
-        background-color: $color-white;
+  .cards {
+    background-color: $color-white;
 
-        h3 {
-            font-weight: 600;
-            letter-spacing: 1px;
-            padding: 2rem 2rem 0;
-        }
-
-        .box {
-            padding: 0 2rem 2rem;
-
-            .card {
-                border: none;
-                box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
-                border-radius: 8px;
-                transition: all .3s;
-                border-bottom-right-radius: 8px;
-                border-bottom-left-radius: 8px;
-margin-top: 2rem;
-               
-
-                .card-img-top {
-                    height: 270px;
-                    border-top-left-radius: 8px;
-                    border-top-right-radius: 8px;
-                    img {
-                        height: 100%;
-                        width: 100%;
-                    }
-                }
-
-                .card-title {
-                    font-size: 1rem;
-                    font-weight: 600;
-                }
-
-                .card-text {
-                    font-size: .9rem;
-                }
-                // &:hover {
-                //     cursor: pointer;
-                   
-                //         img {
-                //             transform: scale(1.2);
-                //         }
-                    
-                // }
-            }
-        }
+    h3 {
+      font-weight: 600;
+      letter-spacing: 1px;
+      padding: 2rem 2rem 0;
     }
+
+    .box {
+      padding: 0 2rem 2rem;
+
+      .card {
+        border: none;
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
+        border-radius: 8px;
+        transition: all 0.3s;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        margin-top: 2rem;
+
+        .card-img-top {
+          height: 270px;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+
+        .card-title {
+          font-size: 1rem;
+          font-weight: 600;
+        }
+
+        .card-text {
+          font-size: 0.9rem;
+        }
+        // &:hover {
+        //     cursor: pointer;
+
+        //         img {
+        //             transform: scale(1.2);
+        //         }
+
+        // }
+      }
+    }
+  }
 }
 //////////////////////////////////////////////////////
 // single-topic///////////////////////////////////////
-.single-topic{
-    padding: 2rem;
-    .topic-content{
-        background-color: $color-white;
-        padding: 0 2rem 2rem;
-        .card {
-            border: none;
-            box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
-            border-radius: 8px;
-            transition: all .3s;
-            border-bottom-right-radius: 8px;
-            border-bottom-left-radius: 8px;
-margin-top: 2rem;
-           
+.single-topic {
+  padding: 2rem;
+  .topic-content {
+    background-color: $color-white;
+    padding: 0 2rem 2rem;
+    .card {
+      border: none;
+      box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
+      border-radius: 8px;
+      transition: all 0.3s;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      margin-top: 2rem;
 
-            .card-img-top {
-                height: 240px;
-                border-top-left-radius: 8px;
-                border-top-right-radius: 8px;
-                img {
-                    height: 100%;
-                    width: 100%;
-                }
-            }
-
-            .card-title {
-                font-size: 1rem;
-                font-weight: 600;
-            }
-
-         
-                .text{
-
-                
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                span{
-                    font-size: .9rem;
-                }
-                a{
-              
-                    color: $color-primary;
-                    text-decoration: $color-primary;
-                }
-            
-            }
-        
-            // &:hover {
-            //     cursor: pointer;
-               
-            //         img {
-            //             transform: scale(1.2);
-            //         }
-                
-            // }
+      .card-img-top {
+        height: 240px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        img {
+          height: 100%;
+          width: 100%;
         }
+      }
+
+      .card-title {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+          font-size: 0.9rem;
+        }
+        a {
+          color: $color-primary;
+          text-decoration: $color-primary;
+        }
+      }
+
+      // &:hover {
+      //     cursor: pointer;
+
+      //         img {
+      //             transform: scale(1.2);
+      //         }
+
+      // }
     }
-    .topic-ads{
-        background-color: $color-white;
-        padding: 0 2rem 2rem;
-        h3{
-            font-size: 1rem;
-            font-weight: 600;
-        }
-        .ads{
-            margin-top: 2rem;
-            height: 300px;
-            width: 200px;
-            img{
-                width: 100%;
-                height: 100%;
-
-            }
-        }
-
+  }
+  .topic-ads {
+    background-color: $color-white;
+    padding: 0 2rem 2rem;
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
     }
+    .ads {
+      margin-top: 2rem;
+      height: 300px;
+      width: 200px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
 }

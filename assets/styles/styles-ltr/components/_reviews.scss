@@ -32,7 +32,9 @@
 
     .prev-reviews {
         position: relative;
-
+        .v-skeleton-loader {
+            box-shadow: none;
+          }
         .review {
             margin-top: 1.5rem;
         

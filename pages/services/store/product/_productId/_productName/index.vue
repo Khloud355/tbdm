@@ -9,7 +9,7 @@
                     <li class="breadcrumb-item active" aria-current="page">product</li>
                 </ol>
             </nav>
-
+ 
             <div class="row">
                 <div class="col-8">
                     <div class="product-info">
