@@ -44,11 +44,12 @@ export default {
   data() {
     return {
       todos: [
-        { id: "1", datatype: "" },
-        { id: "2", datatype: "" },
-        { id: "3", datatype: "" },
-        { id: "4", datatype: "" },
-        { id: "5", datatype: "" },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { }
       ],
     };
   },

@@ -4,7 +4,7 @@
       :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
       class="pa-3"
     >
-      <v-skeleton-loader
+      <v-skeleton-loader class="card"
         type="image,table-heading,table-heading,list-item-two-line, actions"
       ></v-skeleton-loader>
     </v-sheet>
@@ -27,6 +27,7 @@ export default {
 </script>
 
 <style lang="scss">
+.card{
 .v-skeleton-loader {
   border: none;
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
@@ -40,7 +41,7 @@ export default {
   padding: 1rem;
   padding-bottom: 0;
   overflow: hidden;
-  height: 250px !important;
+  height: 250px ;
 }
 .v-skeleton-loader__actions {
   display: flex;
@@ -98,6 +99,7 @@ display: none;
  
     // position: absolute;
    }
+}
 }
 }
 </style>

@@ -4,7 +4,7 @@
         <nuxt-link to="/">
             <!-- <img class="offer-img" src="/images/offer1.PNG" alt=""> -->
            
-             <v-skeleton-loader
+             <v-skeleton-loader class="offer-loader"
               type="image"
           ></v-skeleton-loader>
         </nuxt-link>

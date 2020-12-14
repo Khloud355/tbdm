@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-10">
-                  <p>
+                  <p  class="paragraph">
                     <v-sheet
                       :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
                       class="pa-3"
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-10">
-                  <p>
+                  <p  class="paragraph">
                     <v-sheet
                       :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
                       class="pa-3"
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-10">
-                  <p>
+                  <p class="paragraph">
                     <v-sheet
                       :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
                       class="pa-3"

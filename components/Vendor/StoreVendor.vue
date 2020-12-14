@@ -1,23 +1,40 @@
 <template>
-    <div class="store-vendor">
-        <!-- <img src="/images/vendor.PNG" alt="">
-        <h4>Tom Hanks</h4>
-        <p>2,465 Product</p>
-        <div class="rate-box">
-            <span>5.0</span>
-            <img src="/images/icons/svg/vendor-star.svg" alt="">
-        </div>
-    </div> -->
-     <v-sheet
-    :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
-    class="pa-3"
-  >
-    <v-skeleton-loader
-      type="card-heading,list-item-two-line,actions "
-    ></v-skeleton-loader>
-  </v-sheet>
+  <div class="store-vendor">
+    <!-- <img src="/images/vendor.PNG" alt=""> -->
+    <div class="image">
+      <v-sheet
+        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+        class="pa-3"
+      >
+        <v-skeleton-loader class="image-loader" type="card-heading"></v-skeleton-loader>
+      </v-sheet>
     </div>
+
+    <h4>  <v-sheet
+        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+        class="pa-3"
+      >
+        <v-skeleton-loader class="head-loader" type="card-heading"></v-skeleton-loader>
+      </v-sheet></h4>
+    <p>  <v-sheet
+        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+        class="pa-3"
+      >
+        <v-skeleton-loader class="paragraph-loader" type="card-heading"></v-skeleton-loader>
+      </v-sheet></p>
+    <div class="rate">
+      <!-- <span>5.0</span>
+      <img src="/images/icons/svg/vendor-star.svg" alt="" /> -->
+       <v-sheet
+        :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`"
+        class="pa-3"
+      >
+        <v-skeleton-loader class="rate-loader" type="card-heading"></v-skeleton-loader>
+      </v-sheet>
+    </div>
+  </div>
 </template>
+   
 <script>
 export default {
   inject: {

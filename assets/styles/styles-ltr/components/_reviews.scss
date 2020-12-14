@@ -1,5 +1,9 @@
 .reviews {
-
+.review-loader{
+    .v-skeleton-loader__heading{
+        width: 7rem;
+    }
+}
     h4 {
         font-size: 1.3rem;
         font-weight: 600;
@@ -13,9 +17,10 @@
     }
 .two-line{
     .v-skeleton-loader__text{
-        width: 40%;
+        width: 7rem;
+        height: .9rem;
         &:last-child{
-            width: 35%;
+            width: 6rem;
             height: .5rem;
             // margin-top: 1rem;
         }
@@ -23,7 +28,11 @@
 
 }
     .add-review {
-
+.review-loader{
+    .v-skeleton-loader__heading{
+        width: 63%;
+    }
+}
         .row {
             margin-top: 2rem;
         }
@@ -76,6 +85,7 @@
                 .icons {
                     display: flex;
                     align-items: center;
+                    margin-top: -1rem;
 
 
                     .icon {

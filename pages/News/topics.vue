@@ -6,7 +6,7 @@
         <div class="box">
           <div class="row">
             <div class="col-md-4" v-for="card in 9" :key="card">
-                <a href="#">
+              
               <b-card
                 title="Sports"
                 img-src="/images/person.jpeg"
@@ -19,7 +19,7 @@
 
                 <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
               </b-card>
-              </a>
+             
             </div>
           </div>
         </div>
