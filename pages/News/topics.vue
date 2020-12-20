@@ -6,20 +6,24 @@
         <div class="box">
           <div class="row">
             <div class="col-md-4" v-for="card in 9" :key="card">
-              
-              <b-card
-                title="Sports"
-                img-src="/images/person.jpeg"
-                img-alt="Image"
-                img-top
-                tag="article"
-                class="mb-2"
-              >
-                <b-card-text>Some quick example text to build Lorem ipsum dolor sit amet consectetur a</b-card-text>
+              <nuxt-link to="single-topic">
+                <b-card>
+                  <div class="image">
+                    <img src="/images/person.jpeg" alt="" />
+                  </div>
+                  <b-card-text>
+                    <div class="text">
+                      <div class="title">Sports</div>
+                      <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sequi non soluta do
+                      </div>
+                    </div>
+                  </b-card-text>
 
-                <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-              </b-card>
-             
+                  <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
+                </b-card>
+              </nuxt-link>
             </div>
           </div>
         </div>

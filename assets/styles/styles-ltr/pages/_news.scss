@@ -19,110 +19,141 @@
         box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
         border-radius: 8px;
         transition: all 0.3s;
-        border-bottom-right-radius: 8px;
-        border-bottom-left-radius: 8px;
-        margin-top: 2rem;
 
-        .card-img-top {
-          height: 270px;
-          border-top-left-radius: 8px;
+        margin-top: 2rem;
+        .card-body {
+          padding: 0;
           border-top-right-radius: 8px;
+          border-top-left-radius: 8px;
+        }
+        &:hover {
           img {
-            height: 100%;
-            width: 100%;
+            transform: scale(1.2);
+          }
+        }
+        .image {
+          // text-align: center;
+          // padding: 1rem;
+          padding-bottom: 0;
+          overflow: hidden;
+          border-top-right-radius: 8px;
+          border-top-left-radius: 8px;
+
+          img {
+            width: auto;
+            height: 250px;
+            max-width: 100%;
+            // padding: 2.5rem 1rem 2rem;
+            transition: all 0.3s;
           }
         }
 
-        .card-title {
-          font-size: 1rem;
-          font-weight: 600;
+        .text {
+          padding: 1rem;
+          .title {
+            font-weight: 600;
+          }
+          .description {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+          }
         }
-
-        .card-text {
-          font-size: 0.9rem;
-        }
-        // &:hover {
-        //     cursor: pointer;
-
-        //         img {
-        //             transform: scale(1.2);
-        //         }
-
-        // }
+      }
+      a:visited,
+      a:link {
+        color: $color-black;
+        text-decoration: none;
       }
     }
   }
 }
+
 //////////////////////////////////////////////////////
 // single-topic///////////////////////////////////////
 .single-topic {
   padding: 2rem;
   .topic-content {
     background-color: $color-white;
-    padding: 0 2rem 2rem;
+    padding: 0 2rem 4rem;
+    height: 100%;
+
+    h3 {
+      font-weight: 600;
+      letter-spacing: 1px;
+      padding-top: 2rem;
+    }
     .card {
       border: none;
       box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
       border-radius: 8px;
       transition: all 0.3s;
-      border-bottom-right-radius: 8px;
-      border-bottom-left-radius: 8px;
+
       margin-top: 2rem;
+      .card-body {
+        padding: 0;
+      }
+      .image {
+        padding-bottom: 0;
 
-      .card-img-top {
-        height: 240px;
-        border-top-left-radius: 8px;
         border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+
         img {
-          height: 100%;
           width: 100%;
+          height: 250px;
+
+          transition: all 0.3s;
         }
       }
 
-      .card-title {
-        font-size: 1rem;
+      .title {
         font-weight: 600;
+        padding: 1rem 1rem 0;
       }
+      .card-text {
+        .text {
+          padding: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
-      .text {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        span {
-          font-size: 0.9rem;
-        }
-        a {
-          color: $color-primary;
-          text-decoration: $color-primary;
+          .desc {
+            // margin-top: 0.5rem;
+            font-size: 0.9rem;
+          }
+          a{
+            text-decoration: revert;
+            font-weight: 500;
+            color: $color-primary;
+          }
         }
       }
-
-      // &:hover {
-      //     cursor: pointer;
-
-      //         img {
-      //             transform: scale(1.2);
-      //         }
-
-      // }
     }
   }
   .topic-ads {
     background-color: $color-white;
-    padding: 0 2rem 2rem;
+    padding: 0 2rem 4rem;
+    height: 100%;
     h3 {
-      font-size: 1rem;
       font-weight: 600;
+      letter-spacing: 1px;
+      padding-top: 2rem;
     }
     .ads {
+      margin-top: 2rem;
       .ads-box {
-        height: 350px;
+        height: 366px;
         width: 17rem;
         border-radius: 10px;
-        border: 1px solid #ccc;
-        background-color: burlywood;
+        // border: 1px solid #ccc;
+        // background-color: burlywood;
         box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.13);
         // border-radius: 10px;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+        }
       }
     }
   }

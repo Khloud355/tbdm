@@ -1,0 +1,54 @@
+.car-form {
+  padding: 2rem;
+}
+.form-content {
+  background-color: $color-white;
+  padding: 2rem;
+  h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  form {
+    // padding: 2rem;
+    margin-top: 2rem;
+
+    .form-group {
+      position: relative;
+      margin-top: 0.5rem;
+
+      label {
+        color: $color-black;
+        font-size: 1.3rem;
+      }
+      select {
+        background-image: url("/images/icons/svg/icon-arrow.svg");
+        background-repeat: no-repeat;
+        background-position: right 3% top 50%;
+      }
+
+      .form-control {
+        background-color: $color-grey-light-3;
+        border: none;
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+    .btn-section{
+      padding: 0 2.5rem;
+      .custom-control{
+        margin: 1rem 0;
+      }
+    button{
+      padding: 1rem 2rem;
+      background-color: $color-primary;
+      color: $color-white;
+      border-radius: 10px;
+      &:focus{
+        box-shadow: none;
+      }
+
+    }
+  }}
+}

@@ -15,6 +15,7 @@ const _1cb1cc46 = () => interopDefault(import('..\\pages\\sign-up\\index.vue' /*
 const _70aab676 = () => interopDefault(import('..\\pages\\skeleton\\index.vue' /* webpackChunkName: "pages/skeleton/index" */))
 const _65bf332c = () => interopDefault(import('..\\pages\\timer\\index.vue' /* webpackChunkName: "pages/timer/index" */))
 const _7cbd897f = () => interopDefault(import('..\\pages\\vendor-profile\\index.vue' /* webpackChunkName: "pages/vendor-profile/index" */))
+const _9cc78210 = () => interopDefault(import('..\\pages\\Forms\\add-car.vue' /* webpackChunkName: "pages/Forms/add-car" */))
 const _90780fc8 = () => interopDefault(import('..\\pages\\News\\single-topic.vue' /* webpackChunkName: "pages/News/single-topic" */))
 const _276d9f54 = () => interopDefault(import('..\\pages\\News\\topics.vue' /* webpackChunkName: "pages/News/topics" */))
 const _93de09ec = () => interopDefault(import('..\\pages\\partner\\doctor\\index.vue' /* webpackChunkName: "pages/partner/doctor/index" */))
@@ -99,6 +100,10 @@ export const routerOptions = {
     path: "/vendor-profile",
     component: _7cbd897f,
     name: "vendor-profile"
+  }, {
+    path: "/Forms/add-car",
+    component: _9cc78210,
+    name: "Forms-add-car"
   }, {
     path: "/News/single-topic",
     component: _90780fc8,

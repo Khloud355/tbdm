@@ -84,6 +84,13 @@
     "_name": "_7cbd897f"
   },
   {
+    "name": "Forms-add-car",
+    "path": "/Forms/add-car",
+    "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\Forms\\\\add-car.vue",
+    "chunkName": "pages/Forms/add-car",
+    "_name": "_9cc78210"
+  },
+  {
     "name": "News-single-topic",
     "path": "/News/single-topic",
     "component": "C:\\\\khloud\\\\tbdm-new\\\\tbdm\\\\pages\\\\News\\\\single-topic.vue",
