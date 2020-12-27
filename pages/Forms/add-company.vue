@@ -1,104 +1,76 @@
 <template>
-  <section class="car-form">
+  <section class="company-form">
     <div class="container">
-      <div class="form-content">
-        <h3>Add Car</h3>
+      <div class="company-content">
+        <h3>Add Company</h3>
         <form>
           <div class="row justify-content-around">
             <div class="form-group col-md-5">
-              <label for="cartype">Car Type</label>
-              <select id="cartype" class="form-control form-control-lg">
+              <label for="category">Category</label>
+              <select id="category" class="form-control form-control-lg">
                 <option>choose Type</option>
                 <option>syria</option>
               </select>
             </div>
             <div class="form-group col-md-5">
-              <label for="carmodel">Car Model</label>
-              <select id="carmodel" class="form-control form-control-lg">
-                <option>choose Type</option>
-                <option>syria</option>
-              </select>
-            </div>
-          </div>
-          <div class="row justify-content-around">
-            <div class="form-group col-md-5">
-              <label for="rental">Rental Period</label>
-              <select id="rental" class="form-control form-control-lg">
-                <option>choose Type</option>
-                <option>syria</option>
-              </select>
-            </div>
-            <div class="form-group col-md-5">
-              <label for="bodytype">Body Type</label>
-              <select id="bodytype" class="form-control form-control-lg">
-                <option>choose Type</option>
-                <option>syria</option>
-              </select>
-            </div>
-          </div>
-          <div class="row justify-content-around">
-            <div class="form-group col-md-5">
-              <label for="transmission">Transmission</label>
-              <select id="transmission" class="form-control form-control-lg">
-                <option>choose Type</option>
-                <option>syria</option>
-              </select>
-            </div>
-            <div class="form-group col-md-5">
-              <label for="color">Color</label>
+              <label for="companyname">Company Name</label>
               <input
                 type="text"
                 class="form-control form-control-lg"
-                id="color"
-              />
-            </div>
-          </div>
-
-          <div class="row justify-content-around">
-            <div class="form-group col-md-5">
-              <label for="carname">Car Name</label>
-              <input
-                type="text"
-                class="form-control form-control-lg"
-                id="carname"
-              />
-            </div>
-            <div class="form-group col-md-5">
-              <label for="price">Price</label>
-              <input
-                type="text"
-                class="form-control form-control-lg"
-                id="price"
-              />
-            </div>
-          </div>
-
-          <div class="row justify-content-around">
-            <div class="form-group col-md-5">
-              <label for="year">Manufacturer Year</label>
-              <input
-                type="text"
-                class="form-control form-control-lg"
-                id="year"
-              />
-            </div>
-            <div class="form-group col-md-5">
-              <label for="mobilenum">Mobile Number</label>
-              <input
-                type="text"
-                class="form-control form-control-lg"
-                id="mobilenum"
+                id="companyname"
               />
             </div>
           </div>
           <div class="row justify-content-around">
             <div class="form-group col-md-5">
-              <label for="image">Cover Image</label>
+              <label for="website">Website</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="website"
+              />
+            </div>
+            <div class="form-group col-md-5">
+              <label for="phone">Phone</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="phone"
+              />
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="form-group col-md-5">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="email"
+              />
+            </div>
+            <div class="form-group col-md-5">
+              <label for="address">Address</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="address"
+              />
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="form-group col-md-5">
+              <label for="logo">Company Logo</label>
                  <div class="text-field">
-              <input type="file" id="image" multiple />
-                <label for="image" class="label-file">Choose File</label>
-            </div>
-                   <div class="row">
+              <input
+                type="file"
+             
+                id="logo"
+                multiple
+              />
+                <label for="logo" class="label-file">Choose File</label>
+             
+                 </div>
+                        <div class="row">
                 <div class="col-md-3">
                  <div class="gallery-box">
                   <div class="gallery">
@@ -111,14 +83,21 @@
               </div>
             </div>
             <div class="form-group col-md-5">
-              <label for="photo">Car Photos</label>
-               <div class="text-field">
-              <input type="file" id="photo" multiple/>
-                   <label for="photo" class="label-file">Choose File</label>
-            </div>
-                   <div class="row">
+              <label for="photos">Company Photos</label>
+
+                     <div class="text-field">
+              <input
+                type="file"
+             
+                id="photos"
+                multiple
+              />
+               <label for="photos" class="label-file">Choose File</label>
+                
+                     </div>
+                        <div class="row">
                 <div class="col-md-3">
-                  <div class="gallery-box">
+                    <div class="gallery-box">
                   <div class="gallery">
                     <img class="image" src="/images/person.jpeg" alt="">
                   </div>
@@ -127,7 +106,7 @@
                 </div>
                
               </div>
-          </div>
+            </div>
           </div>
           <div class="row justify-content-around">
             <div class="form-group col-md-5">
@@ -138,14 +117,14 @@
               </select>
             </div>
             <div class="form-group col-md-5">
-              <label for="city">city</label>
+              <label for="city">City</label>
               <select id="city" class="form-control form-control-lg">
                 <option>choose Type</option>
                 <option>syria</option>
               </select>
             </div>
           </div>
-         <div class="form-row justify-content-center">
+          <div class="form-row justify-content-center">
             <div class="form-group col-11">
               <label for="activity">Business Activity</label>
               <textarea
@@ -155,12 +134,8 @@
               ></textarea>
             </div>
           </div>
-          <div class="checkbox">
-             <b-form-checkbox>Has Driver</b-form-checkbox>
-             </div>
           <div class="btn-section">
-         
-            <button class="car-btn">Add Car</button>
+          <button class="company-btn">Add Company</button>
           </div>
         </form>
       </div>
