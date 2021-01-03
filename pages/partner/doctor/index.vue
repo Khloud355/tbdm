@@ -80,8 +80,9 @@
                         type="file"
                         class="form-control"
                         id="profile"
-                        @change="onImagePicked($event)"
+                        @change="galleryPicked($event)"
                         hidden
+                        multiple
                         aria-describedby="emailHelp"
                       />
                     </div>
@@ -972,9 +973,12 @@
 <script>
 export default {
   layout: "withoutNavbar",
+  name:"partnerDoctor",
   data() {
     return {
+     
       e1: 1,
+      gallery:[],
       image:
         "https://orbitermag.com/wp-content/uploads/2017/03/default-user-image-300x300.png",
       value: "",
@@ -1011,6 +1015,23 @@ export default {
     },
     removeHospitalClinic(index) {
         this.hospitalClinics.splice(index, 1);
+    },
+
+    galleryPicked(event) {
+      console.log("picked");
+      console.log(event.target.files)
+      let file = event.target.files;
+      for (let i of file) {
+        let myfile = i
+
+        const fileReader = new FileReader();
+        fileReader.addEventListener("load", () => {
+          this.gallery.push(fileReader.result)
+
+        });
+         fileReader.readAsDataURL(myfile);
+
+      }
     },
     onImagePicked(event) {
       console.log("picked");
